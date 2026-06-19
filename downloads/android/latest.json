@@ -1,0 +1,11 @@
+{
+  "appName": "源图casepro",
+  "platform": "Android",
+  "packageName": "com.csysum.casepro.android",
+  "versionName": "0.1.0",
+  "versionCode": 1,
+  "apk": "downloads/android/yuantu-casepro-android-0.1.0-1.apk",
+  "sha256": "87e2366ec4ee1feb97636f03661809bbb38c13231a9534064948f042f49ff346",
+  "publishedAt": "2026-06-19",
+  "distribution": "official_direct_download_preview"
+}
