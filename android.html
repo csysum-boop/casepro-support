@@ -12,6 +12,9 @@
     .card{border:1px solid #e5e7eb;border-radius:12px;padding:18px;margin:16px 0;background:#fff}
     .primary{display:inline-block;background:#0f766e;color:#fff;text-decoration:none;border-radius:10px;padding:13px 18px;font-weight:700}
     .secondary{display:inline-block;color:#2563eb;text-decoration:none;margin-left:12px}
+    .download-grid{display:grid;grid-template-columns:minmax(0,1fr) 180px;gap:18px;align-items:start}
+    .qr-box{text-align:center;color:#6b7280;font-size:14px}
+    .qr-box img{display:block;width:180px;height:180px;margin:0 auto 8px;border:1px solid #e5e7eb;border-radius:12px;background:#fff}
     code{background:#f3f4f6;padding:2px 6px;border-radius:6px;word-break:break-all}
     ul{padding-left:20px}
     .warn{border-color:#fde68a;background:#fffbeb}
@@ -19,6 +22,7 @@
     table{width:100%;border-collapse:collapse;margin-top:8px}
     td{border-top:1px solid #e5e7eb;padding:8px 4px;vertical-align:top}
     td:first-child{width:140px;color:#6b7280}
+    @media (max-width:640px){.download-grid{grid-template-columns:1fr}.secondary{display:block;margin:12px 0 0}.qr-box img{width:168px;height:168px}}
   </style>
 </head>
 <body>
@@ -27,17 +31,25 @@
 
   <div class="card ok">
     <h2>下载</h2>
-    <p>
-      <a class="primary" href="./downloads/android/yuantu-casepro-android-0.1.0-1.apk" download>下载 Android APK</a>
-      <a class="secondary" href="./downloads/android/yuantu-casepro-android-0.1.0-1.apk.sha256.txt">查看 SHA256</a>
-    </p>
-    <table>
-      <tr><td>应用名</td><td>源图casepro</td></tr>
-      <tr><td>版本</td><td>0.1.0 (1)</td></tr>
-      <tr><td>包名</td><td><code>com.csysum.casepro.android</code></td></tr>
-      <tr><td>文件</td><td><code>yuantu-casepro-android-0.1.0-1.apk</code></td></tr>
-      <tr><td>SHA256</td><td><code>87e2366ec4ee1feb97636f03661809bbb38c13231a9534064948f042f49ff346</code></td></tr>
-    </table>
+    <div class="download-grid">
+      <div>
+        <p>
+          <a class="primary" href="./downloads/android/yuantu-casepro-android-0.1.0-1.apk" download>下载 Android APK</a>
+          <a class="secondary" href="./downloads/android/yuantu-casepro-android-0.1.0-1.apk.sha256.txt">查看 SHA256</a>
+        </p>
+        <table>
+          <tr><td>应用名</td><td>源图casepro</td></tr>
+          <tr><td>版本</td><td>0.1.0 (1)</td></tr>
+          <tr><td>包名</td><td><code>com.csysum.casepro.android</code></td></tr>
+          <tr><td>文件</td><td><code>yuantu-casepro-android-0.1.0-1.apk</code></td></tr>
+          <tr><td>SHA256</td><td><code>87e2366ec4ee1feb97636f03661809bbb38c13231a9534064948f042f49ff346</code></td></tr>
+        </table>
+      </div>
+      <div class="qr-box">
+        <img src="./downloads/android/yuantu-casepro-android-download-qr.png" alt="源图casepro Android 下载二维码" />
+        <div>扫码打开本页</div>
+      </div>
+    </div>
   </div>
 
   <div class="card warn">
