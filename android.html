@@ -27,18 +27,25 @@
 </head>
 <body>
   <h1>源图casepro Android 下载</h1>
-  <p class="muted">通用 Android 安装包，适用于可安装 APK 的 Android 手机。当前预览下载因相册安全调查临时暂停。</p>
+  <p class="muted">通用 Android 安装包，适用于可安装 APK 的 Android 手机。当前为预览测试版本，请先使用合成/测试资料验证。</p>
 
-  <div class="card warn">
-    <h2>下载暂停</h2>
+  <div class="card ok">
+    <h2>预览版下载</h2>
     <div class="download-grid">
       <div>
-        <p><b>Android 预览版下载已临时暂停。</b></p>
-        <p>我们正在排查部分真机相册显示异常反馈。调查完成并确认安全前，请不要继续安装或转发旧 APK。</p>
+        <p><b>Android 预览版已恢复下载。</b></p>
+        <p>相册安全排查后的 app 侧验证已完成：当前安装包不申请系统相册读写、外部存储、相机、云同步、统计、崩溃上报或支付权限。</p>
+        <p>
+          <a class="primary" href="./downloads/android/yuantu-casepro-android-0.1.0-1.apk">下载 APK</a>
+          <a class="secondary" href="./downloads/android/latest.json">查看版本信息</a>
+        </p>
         <table>
           <tr><td>应用名</td><td>源图casepro</td></tr>
-          <tr><td>状态</td><td>安全调查中，暂停公开下载</td></tr>
+          <tr><td>状态</td><td>预览测试可下载</td></tr>
+          <tr><td>版本</td><td>0.1.0 (1)</td></tr>
+          <tr><td>Android 提交</td><td><code>e10a6df</code></td></tr>
           <tr><td>包名</td><td><code>com.csysum.casepro.android</code></td></tr>
+          <tr><td>SHA256</td><td><code>d6099e42717cd1224874fc7feba06615df56d4cbdf81badf3408fb6c2ff32660</code></td></tr>
           <tr><td>技术支持</td><td><a href="mailto:750293424@qq.com">750293424@qq.com</a></td></tr>
         </table>
       </div>
@@ -50,18 +57,18 @@
   </div>
 
   <div class="card warn">
-    <h2>已安装用户</h2>
-    <p>如果你已经安装 Android 预览版，请先暂停新的图片导入测试，并妥善保管现有资料。不要卸载 App、不要清除 App 数据、不要清除系统图库或文件管理器数据。</p>
+    <h2>测试注意</h2>
+    <p>这是公开前的预览测试包。覆盖安装通常会保留 App 内已有资料，但重要资料仍建议先在 App 内导出 ZIP 备份。</p>
     <ul>
+      <li>请优先使用合成/测试图片验证导入、查看和备份流程。</li>
       <li>如发现系统相册、文件管理器或 App 内媒体显示异常，请先停止继续操作。</li>
-      <li>请不要删除或移动疑似丢失资料相关文件。</li>
-      <li>可联系技术支持邮箱并说明手机品牌、系统版本、发生时间和操作路径。</li>
+      <li>请联系技术支持邮箱并说明手机品牌、系统版本、发生时间和操作路径。</li>
     </ul>
   </div>
 
   <div class="card">
-    <h2>恢复下载条件</h2>
-    <p>只有在完成相册安全排查、真机验证和公开说明更新后，Android 预览版才会恢复下载。</p>
+    <h2>安全边界</h2>
+    <p>本次恢复下载基于 app 侧安全验证：安装包不具备通过普通权限删除系统相册原图的能力。此前 OPPO 相册事件仍不代表照片已恢复，也不代表已确认触发者。</p>
   </div>
 
   <div class="card">
@@ -75,6 +82,6 @@
     </ul>
   </div>
 
-  <p class="muted">最后更新：2026-06-20，相册安全调查临时暂停下载</p>
+  <p class="muted">最后更新：2026-06-20，Android 预览版恢复下载</p>
 </body>
 </html>

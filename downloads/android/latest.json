@@ -2,10 +2,16 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "downloadAvailable": false,
-  "status": "paused_for_gallery_safety_investigation",
-  "message": "Android preview download is temporarily paused during gallery safety investigation.",
-  "publishedAt": null,
-  "pausedAt": "2026-06-20",
-  "distribution": "official_direct_download_preview_paused"
+  "versionName": "0.1.0",
+  "versionCode": 1,
+  "downloadAvailable": true,
+  "status": "available_after_gallery_safety_review",
+  "message": "Android preview download has resumed after app-side gallery safety verification.",
+  "publishedAt": "2026-06-20T13:45:00+08:00",
+  "androidHead": "e10a6df",
+  "fileName": "yuantu-casepro-android-0.1.0-1.apk",
+  "downloadUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.0-1.apk",
+  "sha256": "d6099e42717cd1224874fc7feba06615df56d4cbdf81badf3408fb6c2ff32660",
+  "sizeBytes": 18707871,
+  "distribution": "official_direct_download_preview"
 }
