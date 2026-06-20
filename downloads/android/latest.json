@@ -4,8 +4,8 @@
   "packageName": "com.csysum.casepro.android",
   "versionName": "0.1.0",
   "versionCode": 1,
-  "apk": "downloads/android/yuantu-casepro-android-0.1.0-1-5cff13e.apk",
-  "sha256": "45f3c9226aec077647ba4887d3ce8acb3f21e21241ff46e3bd9c080f01f7ffe6",
+  "apk": "downloads/android/yuantu-casepro-android-0.1.0-1-6dfc635.apk",
+  "sha256": "f9c0c028ae4b1b9a7b31799318778333025dbbea89611a5af10c9d1db048be5e",
   "publishedAt": "2026-06-20",
   "distribution": "official_direct_download_preview"
 }
