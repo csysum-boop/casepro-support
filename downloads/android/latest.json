@@ -5,13 +5,13 @@
   "versionName": "0.1.0",
   "versionCode": 1,
   "downloadAvailable": true,
-  "status": "available_after_gallery_safety_review",
-  "message": "Android preview download has resumed after app-side gallery safety verification.",
-  "publishedAt": "2026-06-20T13:45:00+08:00",
-  "androidHead": "e10a6df",
+  "status": "available_mixed_media_viewer_fixed",
+  "message": "Android preview download includes the mixed image/video viewer sequence fix.",
+  "publishedAt": "2026-06-20T15:37:36+08:00",
+  "androidHead": "a202c78",
   "fileName": "yuantu-casepro-android-0.1.0-1.apk",
   "downloadUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.0-1.apk",
-  "sha256": "d6099e42717cd1224874fc7feba06615df56d4cbdf81badf3408fb6c2ff32660",
+  "sha256": "2fac9b78a61a8d7ab2bc45e2e5e91825eebbd07f58ebbe03c6d210f2bf7eb203",
   "sizeBytes": 18707871,
   "distribution": "official_direct_download_preview"
 }
