@@ -10,7 +10,11 @@
   "publishedAt": "2026-06-24T00:33:35+08:00",
   "androidHead": "7eb063a",
   "fileName": "yuantu-casepro-android-0.1.24-25.apk",
-  "downloadUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.24-25.apk",
+  "downloadUrl": "https://csysum-boop.github.io/casepro-support/android.html",
+  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.24-25.apk",
+  "mirrorUrls": [
+    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@30741c6/downloads/android/yuantu-casepro-android-0.1.24-25.apk"
+  ],
   "sha256": "d3ddd0257c5b0578bda45385543e454f9fd171dc99dd8d327be92553ca84f694",
   "sizeBytes": 18831251,
   "distribution": "official_direct_download_preview"
