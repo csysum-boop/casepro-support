@@ -2,20 +2,20 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.24",
-  "versionCode": 25,
+  "versionName": "0.1.25",
+  "versionCode": 26,
   "downloadAvailable": true,
-  "status": "available_pdf_export_stability",
-  "message": "Android preview improves 20-image PDF export stability by using bounded image decoding before PDF rendering while preserving the existing PDF layout, manifest, and brand footer.",
-  "publishedAt": "2026-06-24T00:33:35+08:00",
-  "androidHead": "7eb063a",
-  "fileName": "yuantu-casepro-android-0.1.24-25.apk",
+  "status": "available_pdf_save_zero_byte_guard",
+  "message": "Android preview pre-renders PDF save-to-file exports into verified non-empty app cache before opening the system save picker, reducing user-visible 0B external PDF files when rendering fails.",
+  "publishedAt": "2026-06-24T10:26:28+08:00",
+  "androidHead": "80ad8b3",
+  "fileName": "yuantu-casepro-android-0.1.25-26.apk",
   "downloadUrl": "https://csysum-boop.github.io/casepro-support/android.html",
-  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.24-25.apk",
+  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.25-26.apk",
   "mirrorUrls": [
-    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@30741c6/downloads/android/yuantu-casepro-android-0.1.24-25.apk"
+    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@771f049/downloads/android/yuantu-casepro-android-0.1.25-26.apk"
   ],
-  "sha256": "d3ddd0257c5b0578bda45385543e454f9fd171dc99dd8d327be92553ca84f694",
-  "sizeBytes": 18831251,
+  "sha256": "d1cae2d9b87519648108e419f3ea3540a592c91614aeef135aa3b3d9aafad883",
+  "sizeBytes": 18814867,
   "distribution": "official_direct_download_preview"
 }
