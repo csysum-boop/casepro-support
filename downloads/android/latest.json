@@ -2,20 +2,20 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.27",
-  "versionCode": 28,
+  "versionName": "0.1.28",
+  "versionCode": 29,
   "downloadAvailable": true,
-  "status": "available_pdf_save_create_document_fix",
-  "message": "Android preview now routes PDF save-to-file through the system document creator instead of the share chooser. The 29-image collection path stages a verified non-empty PDF first, then 保存到文件 opens DocumentsUI and writes the selected destination URI; 分享 still uses the system share sheet.",
-  "publishedAt": "2026-06-24T18:25:00+08:00",
-  "androidHead": "d1cf128",
-  "fileName": "yuantu-casepro-android-0.1.27-28.apk",
+  "status": "available_large_image_viewer_decode_fix",
+  "message": "Android preview now bounds on-screen image decoding for collection/card viewers so very large images open and page without the Canvas large-bitmap crash. Save, share, PDF export, long-image export, and original-file export still use the source files; the 0.1.27 PDF save-to-file fix is retained.",
+  "publishedAt": "2026-06-24T19:06:00+08:00",
+  "androidHead": "0732660",
+  "fileName": "yuantu-casepro-android-0.1.28-29.apk",
   "downloadUrl": "https://csysum-boop.github.io/casepro-support/android.html",
-  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.27-28.apk",
+  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.28-29.apk",
   "mirrorUrls": [
-    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@main/downloads/android/yuantu-casepro-android-0.1.27-28.apk"
+    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@main/downloads/android/yuantu-casepro-android-0.1.28-29.apk"
   ],
-  "sha256": "a16b6daf9fc7b1c828c6a6867ed21fa0058a0fc76c560a10774f0e86571bddee",
-  "sizeBytes": 18814867,
+  "sha256": "ca3852b99af70e6a16fbf9549a8d0ebcec0753a85098bd096099a85b69f683d6",
+  "sizeBytes": 18831251,
   "distribution": "official_direct_download_preview"
 }
