@@ -2,20 +2,20 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.35",
-  "versionCode": 36,
+  "versionName": "0.1.36",
+  "versionCode": 37,
   "downloadAvailable": true,
-  "status": "available_feature_map_ios_demo_parity",
-  "message": "Android preview now matches the current iOS feature map demo behavior: home shortcut buttons open a clean screenshot-backed guide directly, the guide uses the compact previous/home/next controls, and the page behind no longer bleeds through the demo. The 0.1.34 PDF folder-save fix remains included.",
-  "publishedAt": "2026-06-25T00:03:19+08:00",
-  "androidHead": "60cf690",
-  "fileName": "yuantu-casepro-android-0.1.35-36.apk",
+  "status": "available_zip_folder_save_hardening",
+  "message": "Android preview now saves collection image ZIP exports through the same folder-picker-first flow as PDF: the folder picker appears before ZIP generation, the final ZIP is created only after a verified non-empty staged archive exists, and failed writes delete partial output. The 0.1.34 PDF folder-save fix and 0.1.35 feature-map demo fix remain included.",
+  "publishedAt": "2026-06-25T00:27:58+08:00",
+  "androidHead": "a4e725c",
+  "fileName": "yuantu-casepro-android-0.1.36-37.apk",
   "downloadUrl": "https://csysum-boop.github.io/casepro-support/android.html",
-  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.35-36.apk",
+  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.36-37.apk",
   "mirrorUrls": [
-    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@main/downloads/android/yuantu-casepro-android-0.1.35-36.apk"
+    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@main/downloads/android/yuantu-casepro-android-0.1.36-37.apk"
   ],
-  "sha256": "3db031c3d037f66fa6ce9d97fc6b70293abb6bf1502c4ccef0d3e15f8b177011",
+  "sha256": "e5572999e084701bbf7e6429698fd4539c0364983a1aea5e54b01be436214b4a",
   "sizeBytes": 34850088,
   "distribution": "official_direct_download_preview"
 }
