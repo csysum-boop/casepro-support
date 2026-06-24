@@ -2,20 +2,20 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.25",
-  "versionCode": 26,
+  "versionName": "0.1.26",
+  "versionCode": 27,
   "downloadAvailable": true,
-  "status": "available_topic_pdf_share_handoff",
-  "message": "Android preview stages PDF save/share exports as verified non-empty app-cache files and hands them to the system through FileProvider ACTION_SEND, so large topic collections no longer stop before file handoff and PDF save avoids user-visible 0B SAF artifacts.",
-  "publishedAt": "2026-06-24T12:07:27+08:00",
-  "androidHead": "2a41aac",
-  "fileName": "yuantu-casepro-android-0.1.25-26.apk",
+  "status": "available_large_topic_pdf_metadata_oom_fix",
+  "message": "Android preview now streams PDF manifest metadata appends for large topic exports, fixing the 29-image collection path where save/share could fail with no staged file before the system chooser. PDF save/share still stages a verified non-empty app-cache file and avoids user-visible 0B SAF artifacts.",
+  "publishedAt": "2026-06-24T13:20:41+08:00",
+  "androidHead": "831bae3",
+  "fileName": "yuantu-casepro-android-0.1.26-27.apk",
   "downloadUrl": "https://csysum-boop.github.io/casepro-support/android.html",
-  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.25-26.apk",
+  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.26-27.apk",
   "mirrorUrls": [
-    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@9be4691/downloads/android/yuantu-casepro-android-0.1.25-26.apk"
+    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@27b9aa0/downloads/android/yuantu-casepro-android-0.1.26-27.apk"
   ],
-  "sha256": "ce5afbf9a76e3cfd93ef0ae5ecf4a1986edbf7373464f0058fecddb2033a18f6",
+  "sha256": "473bcd99b710137633e3a99d39ef9ed5ff96138f104caa99b87cf9455a3d1f47",
   "sizeBytes": 18814867,
   "distribution": "official_direct_download_preview"
 }

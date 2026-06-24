@@ -35,21 +35,21 @@
     <div class="download-grid">
       <div>
         <p><b>Android 预览版已更新。</b></p>
-        <p>当前安装包修正合集 PDF 不创建的问题：PDF 保存/分享会先在 App 缓存中生成并校验非空文件，再通过系统保存/分享面板交接；图片较多的合集不再因为 20 张上限停在交接前，也继续避免渲染失败后留下外部 0B 文件。</p>
+        <p>当前安装包修正大合集 PDF 根本不创建的问题：29 张图片的合集导出不再在 PDF manifest 写入阶段因为内存分配失败而中断；PDF 保存/分享会先在 App 缓存中生成并校验非空文件，再通过系统保存/分享面板交接，也继续避免渲染失败后留下外部 0B 文件。</p>
         <p>
-          <a class="primary" href="./downloads/android/yuantu-casepro-android-0.1.25-26.apk" download>官方下载 APK</a>
+          <a class="primary" href="./downloads/android/yuantu-casepro-android-0.1.26-27.apk" download>官方下载 APK</a>
           <a class="secondary" href="./downloads/android/latest.json">查看版本信息</a>
         </p>
         <p class="muted">如果点击后没有反应，请长按复制下面的官方下载链接，再粘贴到系统浏览器或下载器打开。备用镜像只作为网络较慢时的复制备用；两个下载链接对应同一安装包，可用下方 SHA256 校验。</p>
-        <a class="linkbox" href="./downloads/android/yuantu-casepro-android-0.1.25-26.apk" download>https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.25-26.apk</a>
-        <a class="linkbox" href="https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@9be4691/downloads/android/yuantu-casepro-android-0.1.25-26.apk" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@9be4691/downloads/android/yuantu-casepro-android-0.1.25-26.apk</a>
+        <a class="linkbox" href="./downloads/android/yuantu-casepro-android-0.1.26-27.apk" download>https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.26-27.apk</a>
+        <a class="linkbox" href="https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@27b9aa0/downloads/android/yuantu-casepro-android-0.1.26-27.apk" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@27b9aa0/downloads/android/yuantu-casepro-android-0.1.26-27.apk</a>
         <table>
           <tr><td>应用名</td><td>源图casepro</td></tr>
           <tr><td>状态</td><td>预览测试可下载</td></tr>
-          <tr><td>版本</td><td>0.1.25 (26)</td></tr>
-          <tr><td>Android 提交</td><td><code>2a41aac</code></td></tr>
+          <tr><td>版本</td><td>0.1.26 (27)</td></tr>
+          <tr><td>Android 提交</td><td><code>831bae3</code></td></tr>
           <tr><td>包名</td><td><code>com.csysum.casepro.android</code></td></tr>
-          <tr><td>SHA256</td><td><code>ce5afbf9a76e3cfd93ef0ae5ecf4a1986edbf7373464f0058fecddb2033a18f6</code></td></tr>
+          <tr><td>SHA256</td><td><code>473bcd99b710137633e3a99d39ef9ed5ff96138f104caa99b87cf9455a3d1f47</code></td></tr>
           <tr><td>技术支持</td><td><a href="mailto:750293424@qq.com">750293424@qq.com</a></td></tr>
         </table>
       </div>
@@ -86,6 +86,6 @@
     </ul>
   </div>
 
-  <p class="muted">最后更新：2026-06-24，Android 预览版更新到 0.1.25，修正合集 PDF 不创建，并继续避免 PDF 保存时留下 0B 外部文件</p>
+  <p class="muted">最后更新：2026-06-24，Android 预览版更新到 0.1.26，修正大合集 PDF manifest 写入 OOM 导致无文件创建，并继续避免 PDF 保存时留下 0B 外部文件</p>
 </body>
 </html>
