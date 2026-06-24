@@ -2,20 +2,20 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.28",
-  "versionCode": 29,
+  "versionName": "0.1.29",
+  "versionCode": 30,
   "downloadAvailable": true,
-  "status": "available_large_image_viewer_decode_fix",
-  "message": "Android preview now bounds on-screen image decoding for collection/card viewers so very large images open and page without the Canvas large-bitmap crash. Save, share, PDF export, long-image export, and original-file export still use the source files; the 0.1.27 PDF save-to-file fix is retained.",
-  "publishedAt": "2026-06-24T19:06:00+08:00",
-  "androidHead": "0732660",
-  "fileName": "yuantu-casepro-android-0.1.28-29.apk",
+  "status": "available_pdf_save_picker_first",
+  "message": "Android preview now opens the system save location picker before generating collection PDFs. After the user chooses a destination, CasePro generates and writes the PDF in the background; the 0.1.28 large-image viewer decode fix remains included.",
+  "publishedAt": "2026-06-24T20:28:00+08:00",
+  "androidHead": "26c4c42",
+  "fileName": "yuantu-casepro-android-0.1.29-30.apk",
   "downloadUrl": "https://csysum-boop.github.io/casepro-support/android.html",
-  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.28-29.apk",
+  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.29-30.apk",
   "mirrorUrls": [
-    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@main/downloads/android/yuantu-casepro-android-0.1.28-29.apk"
+    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@main/downloads/android/yuantu-casepro-android-0.1.29-30.apk"
   ],
-  "sha256": "5d3c4ccec3896011bb18ed86d0de4ccf39962782e6fe067b760e9459fe321667",
+  "sha256": "50cca7a7e265b43a735fb2397258269668f92782c49916b07410c548a6b03c45",
   "sizeBytes": 18831251,
   "distribution": "official_direct_download_preview"
 }
