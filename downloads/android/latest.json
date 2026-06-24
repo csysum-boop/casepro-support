@@ -7,15 +7,15 @@
   "downloadAvailable": true,
   "status": "available_large_topic_pdf_metadata_oom_fix",
   "message": "Android preview now streams PDF manifest metadata appends for large topic exports, fixing the 29-image collection path where save/share could fail with no staged file before the system chooser. PDF save/share still stages a verified non-empty app-cache file and avoids user-visible 0B SAF artifacts.",
-  "publishedAt": "2026-06-24T13:20:41+08:00",
+  "publishedAt": "2026-06-24T13:29:27+08:00",
   "androidHead": "831bae3",
   "fileName": "yuantu-casepro-android-0.1.26-27.apk",
   "downloadUrl": "https://csysum-boop.github.io/casepro-support/android.html",
   "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.26-27.apk",
   "mirrorUrls": [
-    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@27b9aa0/downloads/android/yuantu-casepro-android-0.1.26-27.apk"
+    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@f43d6d2/downloads/android/yuantu-casepro-android-0.1.26-27.apk"
   ],
-  "sha256": "473bcd99b710137633e3a99d39ef9ed5ff96138f104caa99b87cf9455a3d1f47",
+  "sha256": "b2a086833105008e654a4af5405ff5dddc82304efd7c4ae2c132c1d7130cba0c",
   "sizeBytes": 18814867,
   "distribution": "official_direct_download_preview"
 }
