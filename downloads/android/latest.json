@@ -2,20 +2,20 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.33",
-  "versionCode": 34,
+  "versionName": "0.1.34",
+  "versionCode": 35,
   "downloadAvailable": true,
-  "status": "available_feature_map_hierarchy_fix",
-  "message": "Android preview now restores the feature map hierarchy: PDF, ZIP image package, and long-image shortcut buttons open the Export and Import detail page first, task cards then open screenshot-backed demos, and guide controls include parent-section and home navigation. The 0.1.29 PDF save-location picker behavior remains included.",
-  "publishedAt": "2026-06-24T22:38:16+08:00",
-  "androidHead": "0c5cf1d",
-  "fileName": "yuantu-casepro-android-0.1.33-34.apk",
+  "status": "available_pdf_folder_save_nonzero",
+  "message": "Android preview now saves collection PDF exports through the folder picker first, generates the PDF after the folder is chosen, writes a completed non-empty file, and keeps the 0.1.33 feature map hierarchy fix.",
+  "publishedAt": "2026-06-24T23:06:29+08:00",
+  "androidHead": "f27cb1f",
+  "fileName": "yuantu-casepro-android-0.1.34-35.apk",
   "downloadUrl": "https://csysum-boop.github.io/casepro-support/android.html",
-  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.33-34.apk",
+  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.34-35.apk",
   "mirrorUrls": [
-    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@main/downloads/android/yuantu-casepro-android-0.1.33-34.apk"
+    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@main/downloads/android/yuantu-casepro-android-0.1.34-35.apk"
   ],
-  "sha256": "335981b94ce8aeba5f7f09acf080f10ea032ac2def77b4da9f12f8d7d91ad961",
+  "sha256": "bbaf46266558e5e25dfda37e4c37b668267a1d2b1c54723a99803f52e06bda54",
   "sizeBytes": 34850280,
   "distribution": "official_direct_download_preview"
 }
