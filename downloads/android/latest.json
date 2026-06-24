@@ -2,20 +2,20 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.32",
-  "versionCode": 33,
+  "versionName": "0.1.33",
+  "versionCode": 34,
   "downloadAvailable": true,
-  "status": "available_feature_map_guide_demo_fix",
-  "message": "Android preview now fixes the in-app feature map guide demos: PDF, ZIP image package, and long-image export shortcut buttons open screenshot-backed demos with visible step navigation and native route actions. The 0.1.29 PDF save-location picker behavior remains included.",
-  "publishedAt": "2026-06-24T22:05:08+08:00",
-  "androidHead": "7c138af",
-  "fileName": "yuantu-casepro-android-0.1.32-33.apk",
+  "status": "available_feature_map_hierarchy_fix",
+  "message": "Android preview now restores the feature map hierarchy: PDF, ZIP image package, and long-image shortcut buttons open the Export and Import detail page first, task cards then open screenshot-backed demos, and guide controls include parent-section and home navigation. The 0.1.29 PDF save-location picker behavior remains included.",
+  "publishedAt": "2026-06-24T22:38:16+08:00",
+  "androidHead": "0c5cf1d",
+  "fileName": "yuantu-casepro-android-0.1.33-34.apk",
   "downloadUrl": "https://csysum-boop.github.io/casepro-support/android.html",
-  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.32-33.apk",
+  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.33-34.apk",
   "mirrorUrls": [
-    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@main/downloads/android/yuantu-casepro-android-0.1.32-33.apk"
+    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@main/downloads/android/yuantu-casepro-android-0.1.33-34.apk"
   ],
-  "sha256": "bb3ee3386064757474e182c6c624d2e3a170e5c32982f6f4a4c15da46fcdfd92",
-  "sizeBytes": 34850148,
+  "sha256": "335981b94ce8aeba5f7f09acf080f10ea032ac2def77b4da9f12f8d7d91ad961",
+  "sizeBytes": 34850280,
   "distribution": "official_direct_download_preview"
 }
