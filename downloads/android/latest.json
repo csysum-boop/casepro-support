@@ -2,20 +2,20 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.29",
-  "versionCode": 30,
+  "versionName": "0.1.30",
+  "versionCode": 31,
   "downloadAvailable": true,
-  "status": "available_pdf_save_picker_first",
-  "message": "Android preview now opens the system save location picker before generating collection PDFs. After the user chooses a destination, CasePro generates and writes the PDF in the background; the 0.1.28 large-image viewer decode fix remains included.",
-  "publishedAt": "2026-06-24T20:28:00+08:00",
-  "androidHead": "26c4c42",
-  "fileName": "yuantu-casepro-android-0.1.29-30.apk",
+  "status": "available_feature_map_center",
+  "message": "Android preview now includes the in-app feature map center copied from the iOS HTML guide, with screenshot-backed demos and native route actions. The 0.1.29 PDF save-location picker behavior remains included.",
+  "publishedAt": "2026-06-24T21:21:00+08:00",
+  "androidHead": "0449692",
+  "fileName": "yuantu-casepro-android-0.1.30-31.apk",
   "downloadUrl": "https://csysum-boop.github.io/casepro-support/android.html",
-  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.29-30.apk",
+  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.30-31.apk",
   "mirrorUrls": [
-    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@main/downloads/android/yuantu-casepro-android-0.1.29-30.apk"
+    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@main/downloads/android/yuantu-casepro-android-0.1.30-31.apk"
   ],
-  "sha256": "50cca7a7e265b43a735fb2397258269668f92782c49916b07410c548a6b03c45",
-  "sizeBytes": 18831251,
+  "sha256": "9685e4024eb983a2b0f45e7d5b83e74675ea3b48513aed333d8d6180e9f7930b",
+  "sizeBytes": 34850036,
   "distribution": "official_direct_download_preview"
 }
