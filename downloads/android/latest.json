@@ -2,20 +2,20 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.26",
-  "versionCode": 27,
+  "versionName": "0.1.27",
+  "versionCode": 28,
   "downloadAvailable": true,
-  "status": "available_large_topic_pdf_metadata_oom_fix",
-  "message": "Android preview now streams PDF manifest metadata appends for large topic exports, fixing the 29-image collection path where save/share could fail with no staged file before the system chooser. PDF save/share still stages a verified non-empty app-cache file and avoids user-visible 0B SAF artifacts.",
-  "publishedAt": "2026-06-24T13:29:27+08:00",
-  "androidHead": "831bae3",
-  "fileName": "yuantu-casepro-android-0.1.26-27.apk",
+  "status": "available_pdf_save_create_document_fix",
+  "message": "Android preview now routes PDF save-to-file through the system document creator instead of the share chooser. The 29-image collection path stages a verified non-empty PDF first, then 保存到文件 opens DocumentsUI and writes the selected destination URI; 分享 still uses the system share sheet.",
+  "publishedAt": "2026-06-24T18:25:00+08:00",
+  "androidHead": "d1cf128",
+  "fileName": "yuantu-casepro-android-0.1.27-28.apk",
   "downloadUrl": "https://csysum-boop.github.io/casepro-support/android.html",
-  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.26-27.apk",
+  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.27-28.apk",
   "mirrorUrls": [
-    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@f43d6d2/downloads/android/yuantu-casepro-android-0.1.26-27.apk"
+    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@main/downloads/android/yuantu-casepro-android-0.1.27-28.apk"
   ],
-  "sha256": "b2a086833105008e654a4af5405ff5dddc82304efd7c4ae2c132c1d7130cba0c",
+  "sha256": "a16b6daf9fc7b1c828c6a6867ed21fa0058a0fc76c560a10774f0e86571bddee",
   "sizeBytes": 18814867,
   "distribution": "official_direct_download_preview"
 }
