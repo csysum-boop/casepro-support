@@ -13,7 +13,7 @@
   "downloadUrl": "https://csysum-boop.github.io/casepro-support/android.html",
   "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.37-38.apk",
   "mirrorUrls": [
-    "https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@main/downloads/android/yuantu-casepro-android-0.1.37-38.apk"
+    "https://raw.githubusercontent.com/csysum-boop/casepro-support/main/downloads/android/yuantu-casepro-android-0.1.37-38.apk"
   ],
   "sha256": "afbcc0d6fdc2b6f9033d20899e3981d7e6d9291181b89dab629e3307075b6b06",
   "sizeBytes": 34867656,
