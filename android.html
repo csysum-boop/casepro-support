@@ -35,21 +35,21 @@
     <div class="download-grid">
       <div>
         <p><b>Android 预览版已更新。</b></p>
-        <p>当前安装包修复合集图包 ZIP 保存：点击“保存到文件”后会先打开系统文件夹选择器，选择位置后再在后台生成 ZIP 并写入所选文件夹；最终 ZIP 只会在已确认缓存包非空后创建，写入失败会清理半成品。0.1.34 的 PDF 文件夹保存修复和 0.1.35 的功能地图演示修复继续保留。</p>
+        <p>当前安装包完成长期稳定性整改：完整备份改为有界流式生成并直接写入所选文件，不再在缓存保留第二份大 ZIP；写入时会复核每项文件大小和 SHA256，失败会删除半成品。原文件缺失或卡片仍锁定时会明确拒绝完整备份；大图预览采用有界解码，分辨率过高的编辑会保留原图并提示。</p>
         <p>
-          <a class="primary" href="./downloads/android/yuantu-casepro-android-0.1.36-37.apk" download>官方下载 APK</a>
+          <a class="primary" href="./downloads/android/yuantu-casepro-android-0.1.37-38.apk" download>官方下载 APK</a>
           <a class="secondary" href="./downloads/android/latest.json">查看版本信息</a>
         </p>
         <p class="muted">如果点击后没有反应，请长按复制下面的官方下载链接，再粘贴到系统浏览器或下载器打开。备用镜像只作为网络较慢时的复制备用；两个下载链接对应同一安装包，可用下方 SHA256 校验。</p>
-        <a class="linkbox" href="./downloads/android/yuantu-casepro-android-0.1.36-37.apk" download>https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.36-37.apk</a>
-        <a class="linkbox" href="https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@main/downloads/android/yuantu-casepro-android-0.1.36-37.apk" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@main/downloads/android/yuantu-casepro-android-0.1.36-37.apk</a>
+        <a class="linkbox" href="./downloads/android/yuantu-casepro-android-0.1.37-38.apk" download>https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.37-38.apk</a>
+        <a class="linkbox" href="https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@main/downloads/android/yuantu-casepro-android-0.1.37-38.apk" target="_blank" rel="noopener">https://cdn.jsdelivr.net/gh/csysum-boop/casepro-support@main/downloads/android/yuantu-casepro-android-0.1.37-38.apk</a>
         <table>
           <tr><td>应用名</td><td>源图casepro</td></tr>
           <tr><td>状态</td><td>预览测试可下载</td></tr>
-          <tr><td>版本</td><td>0.1.36 (37)</td></tr>
-          <tr><td>Android 提交</td><td><code>a4e725c</code></td></tr>
+          <tr><td>版本</td><td>0.1.37 (38)</td></tr>
+          <tr><td>Android 提交</td><td><code>f96a0fa</code></td></tr>
           <tr><td>包名</td><td><code>com.csysum.casepro.android</code></td></tr>
-          <tr><td>SHA256</td><td><code>e5572999e084701bbf7e6429698fd4539c0364983a1aea5e54b01be436214b4a</code></td></tr>
+          <tr><td>SHA256</td><td><code>afbcc0d6fdc2b6f9033d20899e3981d7e6d9291181b89dab629e3307075b6b06</code></td></tr>
           <tr><td>技术支持</td><td><a href="mailto:750293424@qq.com">750293424@qq.com</a></td></tr>
         </table>
       </div>
@@ -86,6 +86,6 @@
     </ul>
   </div>
 
-  <p class="muted">最后更新：2026-06-25，Android 预览版更新到 0.1.36，修复合集图包 ZIP 文件夹保存并保留 PDF 文件夹保存和功能地图演示修复</p>
+  <p class="muted">最后更新：2026-07-10，Android 预览版更新到 0.1.37，完成备份、大图、启动恢复和平台数据边界的长期稳定性整改</p>
 </body>
 </html>
