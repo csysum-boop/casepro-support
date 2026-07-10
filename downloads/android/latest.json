@@ -2,20 +2,20 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.37",
-  "versionCode": 38,
+  "versionName": "0.1.38",
+  "versionCode": 39,
   "downloadAvailable": true,
-  "status": "available_long_term_stability_hardening",
-  "message": "Android preview now uses bounded streaming for complete backup export, validation and import; direct SAF ZIP output rechecks every entry against its declared byte count and SHA-256 and removes failed output. Complete backup fails clearly when visible media is missing or a card remains locked. Large-image previews are bounded, oversized full-resolution edits preserve the original, and startup, settings, network and platform backup boundaries are hardened.",
-  "publishedAt": "2026-07-10T08:33:57+08:00",
-  "androidHead": "f96a0fa",
-  "fileName": "yuantu-casepro-android-0.1.37-38.apk",
+  "status": "available_high_value_export_integrity",
+  "message": "Android preview now verifies every SAF file copy by source byte count, closes output before success, refreshes provider metadata, and removes failed documents. PDF export fails closed if any selected image is unreadable, uses actual EXIF-oriented dimensions, and visibly prints each image's tags and notes while preserving reverse-import crop rectangles. Comparison file export opens the destination picker before rendering; multi-file original and long-image exports roll back the whole created batch after a later failure.",
+  "publishedAt": "2026-07-10T19:24:23+08:00",
+  "androidHead": "82a9f00",
+  "fileName": "yuantu-casepro-android-0.1.38-39.apk",
   "downloadUrl": "https://csysum-boop.github.io/casepro-support/android.html",
-  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.37-38.apk",
+  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.38-39.apk",
   "mirrorUrls": [
-    "https://raw.githubusercontent.com/csysum-boop/casepro-support/main/downloads/android/yuantu-casepro-android-0.1.37-38.apk"
+    "https://raw.githubusercontent.com/csysum-boop/casepro-support/main/downloads/android/yuantu-casepro-android-0.1.38-39.apk"
   ],
-  "sha256": "afbcc0d6fdc2b6f9033d20899e3981d7e6d9291181b89dab629e3307075b6b06",
+  "sha256": "9add10457c0b667e7fc983260120efa9ba3ee6a47daf41ae32cb71a8356235c2",
   "sizeBytes": 34867656,
   "distribution": "official_direct_download_preview"
 }
