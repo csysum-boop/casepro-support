@@ -2,20 +2,20 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.40",
-  "versionCode": 41,
+  "versionName": "0.1.41",
+  "versionCode": 42,
   "downloadAvailable": true,
-  "status": "available_cross_device_export_recovery",
-  "message": "Android preview 0.1.40 keeps an authenticated card unlocked while the user views, pages, edits, or adds image notes, and locks it again only after leaving the complete card or backgrounding the app. PDF and image-ZIP save flows open the system folder first, publish final names only after verified completion, and leave no visible 0 B output after cancellation or process termination. Complete ZIP and folder backup now reject locked or missing-source content before opening a destination. OPPO, Redmi, and Android 36 recovery checks passed.",
-  "publishedAt": "2026-07-11T23:31:25+08:00",
-  "androidHead": "d88ea33",
-  "fileName": "yuantu-casepro-android-0.1.40-41.apk",
+  "status": "available_low_storage_export_recovery",
+  "message": "Android preview 0.1.41 adds low-storage protection for PDF, image ZIP, long-image, and complete-backup exports. Storage failures now show a clear cleanup message, expose no internal path, and leave no final, 0 B, or hidden temporary document. Successful complete-backup imports refresh local content totals immediately. Public upgrade retention, destructive backup recovery, OPPO, Redmi, and Android 36 export checks passed.",
+  "publishedAt": "2026-07-12T01:38:00+08:00",
+  "androidHead": "c5014b3",
+  "fileName": "yuantu-casepro-android-0.1.41-42.apk",
   "downloadUrl": "https://csysum-boop.github.io/casepro-support/android.html",
-  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.40-41.apk",
+  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.41-42.apk",
   "mirrorUrls": [
-    "https://raw.githubusercontent.com/csysum-boop/casepro-support/main/downloads/android/yuantu-casepro-android-0.1.40-41.apk"
+    "https://raw.githubusercontent.com/csysum-boop/casepro-support/main/downloads/android/yuantu-casepro-android-0.1.41-42.apk"
   ],
-  "sha256": "5462d2300a2e869d32abb6e2bf7198410407496222778137a8ee9d68520d9f30",
-  "sizeBytes": 34884040,
+  "sha256": "c58568d3a311f64dbc1a9ac473678ec0090dc88e6ef90756e322adbd08993ba2",
+  "sizeBytes": 34884036,
   "distribution": "official_direct_download_preview"
 }
