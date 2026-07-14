@@ -2,20 +2,20 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.41",
-  "versionCode": 42,
+  "versionName": "0.1.42",
+  "versionCode": 43,
   "downloadAvailable": true,
-  "status": "available_low_storage_export_recovery",
-  "message": "Android preview 0.1.41 adds low-storage protection for PDF, image ZIP, long-image, and complete-backup exports. Storage failures now show a clear cleanup message, expose no internal path, and leave no final, 0 B, or hidden temporary document. Successful complete-backup imports refresh local content totals immediately. Public upgrade retention, destructive backup recovery, OPPO, Redmi, and Android 36 export checks passed.",
-  "publishedAt": "2026-07-12T01:38:00+08:00",
-  "androidHead": "c5014b3",
-  "fileName": "yuantu-casepro-android-0.1.41-42.apk",
+  "status": "available_feature_map_recovery",
+  "message": "Android preview 0.1.42 prevents blank feature-map screens on older Xiaomi-era WebViews. It adds an older-viewport fallback, verifies that feature cards have actually rendered, shows a loading state, and falls back to a native feature index when WebView loading or rendering fails. Retry recovery, Redmi WebView 87 rendering, Android 36 renderer failure, and the existing export and backup protections passed verification.",
+  "publishedAt": "2026-07-15T00:12:00+08:00",
+  "androidHead": "faf57b3",
+  "fileName": "yuantu-casepro-android-0.1.42-43.apk",
   "downloadUrl": "https://csysum-boop.github.io/casepro-support/android.html",
-  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.41-42.apk",
+  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.42-43.apk",
   "mirrorUrls": [
-    "https://raw.githubusercontent.com/csysum-boop/casepro-support/main/downloads/android/yuantu-casepro-android-0.1.41-42.apk"
+    "https://raw.githubusercontent.com/csysum-boop/casepro-support/main/downloads/android/yuantu-casepro-android-0.1.42-43.apk"
   ],
-  "sha256": "c58568d3a311f64dbc1a9ac473678ec0090dc88e6ef90756e322adbd08993ba2",
-  "sizeBytes": 34884036,
+  "sha256": "830e978554e3eb47f90cf0efd2065d5d805b8257b7a70b1549dc6af9c32660f5",
+  "sizeBytes": 34884360,
   "distribution": "official_direct_download_preview"
 }
