@@ -15,6 +15,8 @@
   "mirrorUrls": [
     "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.43-44.apk"
   ],
+  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.43-44",
+  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.43-44.apk",
   "sha256": "120575654c1b0bef14838048459f223461142a75dd7cfc30c6e3f5d226995137",
   "sizeBytes": 19868419,
   "signerSha256": "7ba168d650cb468b708af118172dfab45bf3fba75927a72a687595a1b5711c42",
