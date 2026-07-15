@@ -2,20 +2,21 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.42",
-  "versionCode": 43,
+  "versionName": "0.1.43",
+  "versionCode": 44,
   "downloadAvailable": true,
-  "status": "available_feature_map_recovery",
-  "message": "Android preview 0.1.42 prevents blank feature-map screens on older Xiaomi-era WebViews. It adds an older-viewport fallback, verifies that feature cards have actually rendered, shows a loading state, and falls back to a native feature index when WebView loading or rendering fails. Retry recovery, Redmi WebView 87 rendering, Android 36 renderer failure, and the existing export and backup protections passed verification.",
-  "publishedAt": "2026-07-15T00:12:00+08:00",
-  "androidHead": "faf57b3",
-  "fileName": "yuantu-casepro-android-0.1.42-43.apk",
-  "downloadUrl": "https://csysum-boop.github.io/casepro-support/android.html",
-  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.42-43.apk",
+  "status": "available_protected_release",
+  "message": "Android preview 0.1.43 keeps the Xiaomi feature-map compatibility recovery, enables R8 code shrinking and resource shrinking for the distributed package, and ensures rotated or cropped JPEG bytes use a matching .jpg file name. Upgrade retention, backup recovery, PDF, long-image, image ZIP, image editing, notes, Redmi, and Android 36 checks passed.",
+  "publishedAt": "2026-07-15T14:20:00+08:00",
+  "androidHead": "482a9d9",
+  "fileName": "yuantu-casepro-android-0.1.43-44.apk",
+  "downloadUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/android.html",
+  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.43-44.apk",
   "mirrorUrls": [
-    "https://raw.githubusercontent.com/csysum-boop/casepro-support/main/downloads/android/yuantu-casepro-android-0.1.42-43.apk"
+    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.43-44.apk"
   ],
-  "sha256": "830e978554e3eb47f90cf0efd2065d5d805b8257b7a70b1549dc6af9c32660f5",
-  "sizeBytes": 34884360,
+  "sha256": "120575654c1b0bef14838048459f223461142a75dd7cfc30c6e3f5d226995137",
+  "sizeBytes": 19868419,
+  "signerSha256": "7ba168d650cb468b708af118172dfab45bf3fba75927a72a687595a1b5711c42",
   "distribution": "official_direct_download_preview"
 }

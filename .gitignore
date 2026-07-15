@@ -1,0 +1,21 @@
+# Local operating-system files
+.DS_Store
+
+# Never publish signing material, cloud credentials, or R8 recovery maps
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+signing.properties
+credentials.json
+mapping.txt
+seeds.txt
+usage.txt
+
+# Never publish private app exports or test data
+private/
+exports/
+*.caseprobackup
+*.caseprobackup.zip
+*.casebundle.zip

@@ -20,6 +20,7 @@
     ul{padding-left:20px}
     .warn{border-color:#fde68a;background:#fffbeb}
     .ok{border-color:#bbf7d0;background:#f0fdf4}
+    .legal{border-color:#c7d2fe;background:#eef2ff}
     table{width:100%;border-collapse:collapse;margin-top:8px}
     td{border-top:1px solid #e5e7eb;padding:8px 4px;vertical-align:top}
     td:first-child{width:140px;color:#6b7280}
@@ -35,21 +36,22 @@
     <div class="download-grid">
       <div>
         <p><b>Android 预览版已更新。</b></p>
-        <p>本版修复部分小米手机打开功能地图后白屏的问题：旧版系统网页组件会使用兼容布局，页面必须确认功能卡片已实际显示才算加载成功；如果网页组件加载失败或退出，App 会直接显示原生功能索引，并可重新加载。原有高价值输出与备份保护继续保留，包括 PDF、ZIP、长图的完整写入校验、低存储明确提示和失败文件清理。本版已完成 Redmi 旧版网页组件实机渲染、Android 36 渲染进程故障恢复，以及完整自动化验证。</p>
+        <p>本版继续保留小米旧版系统网页组件的功能地图兼容保护，并强化发布包保护。图片旋转或裁切后，文件名会与实际 JPEG 内容保持一致，避免导出图包在不同手机或电脑上被误判。本版已完成覆盖升级、备份恢复、PDF、长图、图片 ZIP、图片编辑备注，以及 Redmi 真机和 Android 36 环境验证。</p>
         <p>
-          <a class="primary" href="./downloads/android/yuantu-casepro-android-0.1.42-43.apk" download>官方下载 APK</a>
+          <a class="primary" href="https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.43-44.apk" download>官方下载 APK</a>
           <a class="secondary" href="./downloads/android/latest.json">查看版本信息</a>
         </p>
-        <p class="muted">如果点击后没有反应，请长按复制下面的官方下载链接，再粘贴到系统浏览器或下载器打开。备用镜像只作为网络较慢时的复制备用；两个下载链接对应同一安装包，可用下方 SHA256 校验。</p>
-        <a class="linkbox" href="./downloads/android/yuantu-casepro-android-0.1.42-43.apk" download>https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.42-43.apk</a>
-        <a class="linkbox" href="https://raw.githubusercontent.com/csysum-boop/casepro-support/main/downloads/android/yuantu-casepro-android-0.1.42-43.apk" target="_blank" rel="noopener">https://raw.githubusercontent.com/csysum-boop/casepro-support/main/downloads/android/yuantu-casepro-android-0.1.42-43.apk</a>
+        <p class="muted">如果点击后没有反应，请长按复制下面的腾讯云官方下载链接，再粘贴到系统浏览器或下载器打开。备用镜像只作为网络异常时的后备；两个下载链接对应同一签名安装包，可用下方 SHA256 校验。</p>
+        <a class="linkbox" href="https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.43-44.apk" download>https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.43-44.apk</a>
+        <a class="linkbox" href="./downloads/android/yuantu-casepro-android-0.1.43-44.apk" download>https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.43-44.apk</a>
         <table>
           <tr><td>应用名</td><td>源图casepro</td></tr>
           <tr><td>状态</td><td>预览测试可下载</td></tr>
-          <tr><td>版本</td><td>0.1.42 (43)</td></tr>
-          <tr><td>Android 提交</td><td><code>faf57b3</code></td></tr>
+          <tr><td>版本</td><td>0.1.43 (44)</td></tr>
+          <tr><td>Android 提交</td><td><code>482a9d9</code></td></tr>
           <tr><td>包名</td><td><code>com.csysum.casepro.android</code></td></tr>
-          <tr><td>SHA256</td><td><code>830e978554e3eb47f90cf0efd2065d5d805b8257b7a70b1549dc6af9c32660f5</code></td></tr>
+          <tr><td>签名证书 SHA256</td><td><code>7ba168d650cb468b708af118172dfab45bf3fba75927a72a687595a1b5711c42</code></td></tr>
+          <tr><td>文件 SHA256</td><td><code>120575654c1b0bef14838048459f223461142a75dd7cfc30c6e3f5d226995137</code></td></tr>
           <tr><td>技术支持</td><td><a href="mailto:750293424@qq.com">750293424@qq.com</a></td></tr>
         </table>
       </div>
@@ -58,6 +60,12 @@
         <div>扫码打开本页查看最新状态</div>
       </div>
     </div>
+  </div>
+
+  <div class="card legal">
+    <h2>正版与知识产权</h2>
+    <p>源图casepro 软件、界面、文字、图形及相关材料受著作权和其他适用法律保护。安装包仅供获得授权的用户安装和测试；未经许可，不得反编译、修改、重新打包、冒用签名、转售或传播。</p>
+    <p>请仅从本页下载，并核对上方包名、签名证书 SHA256 与文件 SHA256。第三方改包、非官方镜像或校验不一致的文件请勿安装。</p>
   </div>
 
   <div class="card warn">
@@ -86,6 +94,6 @@
     </ul>
   </div>
 
-  <p class="muted">最后更新：2026-07-15，Android 预览版更新到 0.1.42，完成小米功能地图白屏恢复、Redmi 旧版网页组件渲染和 Android 36 故障恢复验证</p>
+  <p class="muted">最后更新：2026-07-15，Android 预览版更新到 0.1.43，启用发布包混淆与资源压缩，并完成图片编辑、输出、备份恢复和 Redmi 覆盖升级验证</p>
 </body>
 </html>
