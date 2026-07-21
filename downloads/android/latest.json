@@ -2,23 +2,23 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.44",
-  "versionCode": 45,
+  "versionName": "0.1.45",
+  "versionCode": 46,
   "downloadAvailable": true,
-  "status": "available_appbao_submission_candidate",
-  "message": "Android preview 0.1.44 adds a non-bypassable first-run privacy choice, keeps real-data features closed when consent is deferred, and moves the in-app privacy URL to Tencent CloudBase. Full tests, release signing, Android 36 first-run flows, and Redmi upgrade retention checks passed.",
-  "publishedAt": "2026-07-15T20:58:02+08:00",
-  "androidHead": "38de826",
-  "fileName": "yuantu-casepro-android-0.1.44-45.apk",
+  "status": "available_pre_filing_test_candidate",
+  "message": "Android pre-filing test build 0.1.45 adds file attachments, complete card packages, app access protection, and stabilized PDF, long-image, ZIP, DOCX, and PPTX export flows. Automated tests and OPPO/Redmi physical-device checks passed. This is not yet the final AppBao listing build.",
+  "publishedAt": "2026-07-21T19:48:14+08:00",
+  "androidHead": "33a9475",
+  "fileName": "yuantu-casepro-android-0.1.45-46.apk",
   "downloadUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/android.html",
-  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.44-45.apk",
+  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.45-46.apk",
   "mirrorUrls": [
-    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.44-45.apk"
+    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.45-46.apk"
   ],
-  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.44-45",
-  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.44-45.apk",
-  "sha256": "9f377d6304b694f7e2e03f46c639d43ada03bbdafd296b943d6d7d202e4c0f37",
-  "sizeBytes": 19884799,
+  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.45-46",
+  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.45-46.apk",
+  "sha256": "8d619763ee9633431c9ea600a31c0efbfed6f8eb88920eff0d6054dc07a12712",
+  "sizeBytes": 20047752,
   "signerSha256": "7ba168d650cb468b708af118172dfab45bf3fba75927a72a687595a1b5711c42",
-  "distribution": "official_direct_download_preview"
+  "distribution": "official_direct_download_pre_filing_test"
 }
