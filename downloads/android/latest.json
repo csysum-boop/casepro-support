@@ -2,23 +2,23 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.54",
-  "versionCode": 55,
+  "versionName": "0.1.55",
+  "versionCode": 56,
   "downloadAvailable": true,
-  "status": "available_system_gallery_picker_fix",
-  "message": "Android 0.1.54 (55) is available through the official direct-download lane. On devices without Android's native Photo Picker, 从系统相册添加 now opens the vendor gallery instead of the system file manager; 从文件添加 remains a separate mixed image/video path. The exact signed APK passed 757 automated tests, full lint, R8, 16 KiB alignment, and retained-data OPPO verification. Tencent AppBao currently continues to serve 0.1.53 (54) while the 0.1.54 store update awaits submission and review.",
-  "publishedAt": "2026-08-08T14:24:42+08:00",
-  "androidHead": "93b5961",
-  "fileName": "yuantu-casepro-android-0.1.54-55.apk",
+  "status": "available_wechat_file_handoff",
+  "message": "Android 0.1.55 (56) is available through the official direct-download lane. Files received in WeChat or another Android app can now be opened or shared to 源图casepro and imported into a searchable case or collection destination. The in-app file menu also separates 从微信添加 from 浏览本机文件. Local private-storage copy, file-size and format validation, duplicate removal, authentication, and rollback protections remain enforced. The exact signed APK passed 765 automated tests, full lint, R8, 16 KiB alignment, and retained-data OPPO verification. Tencent AppBao currently continues to serve 0.1.53 (54); a store update is a separate submission and review.",
+  "publishedAt": "2026-08-09T01:11:55+08:00",
+  "androidHead": "db0cd54",
+  "fileName": "yuantu-casepro-android-0.1.55-56.apk",
   "downloadUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/android.html",
-  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.54-55.apk",
+  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.55-56.apk",
   "mirrorUrls": [
-    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.54-55.apk"
+    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.55-56.apk"
   ],
-  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.54-55",
-  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.54-55.apk",
-  "sha256": "27bf6d2ec9a583a10a44704cbc3af03425a34589ebca1cc7e20b70c4e9f584fa",
-  "sizeBytes": 20064168,
+  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.55-56",
+  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.55-56.apk",
+  "sha256": "f0d9b9dae27167e10cc06af21876574f526f559ed770bdc49751621a340bc2d2",
+  "sizeBytes": 20065112,
   "signerSha256": "7ba168d650cb468b708af118172dfab45bf3fba75927a72a687595a1b5711c42",
-  "distribution": "appbao_0.1.53_and_official_direct_0.1.54"
+  "distribution": "appbao_0.1.53_and_official_direct_0.1.55"
 }
