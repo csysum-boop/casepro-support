@@ -3,180 +3,369 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>源图casepro Android 下载</title>
+  <meta name="description" content="源图casepro Android 官方下载。可通过官网或腾讯应用宝下载，支持个案与合集归档、图片视频整理、备注、PDF、长图和完整备份。" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta property="og:title" content="源图casepro Android 官方下载" />
+  <meta property="og:description" content="本地整理图片、视频与备注，支持多种导出和完整备份。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./assets/casepro-app-logo.png" />
+  <title>源图casepro Android 官方下载</title>
   <style>
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;max-width:920px;margin:40px auto;padding:0 16px;line-height:1.65;color:#111827;background:#fff}
-    [hidden]{display:none!important}
-    h1{font-size:32px;margin:0 0 8px}
-    .nowrap{white-space:nowrap}
-    h2{font-size:22px;margin:28px 0 10px}
-    .muted{color:#6b7280}
-    .card{border:1px solid #e5e7eb;border-radius:12px;padding:18px;margin:16px 0;background:#fff}
-    .primary{display:inline-block;background:#0f766e;color:#fff;text-decoration:none;border-radius:10px;padding:13px 18px;font-weight:700}
-    .secondary{display:inline-block;color:#2563eb;text-decoration:none;margin-left:12px}
-    .linkbox{display:block;margin:8px 0 0;padding:10px 12px;border:1px solid #e5e7eb;border-radius:8px;background:#f9fafb;color:#111827;word-break:break-all}
-    .download-grid{display:grid;grid-template-columns:minmax(0,1fr) 180px;gap:18px;align-items:start}
-    .qr-box{text-align:center;color:#6b7280;font-size:14px}
-    .qr-box img{display:block;width:180px;height:180px;margin:0 auto 8px;border:1px solid #e5e7eb;border-radius:12px;background:#fff}
-    code{background:#f3f4f6;padding:2px 6px;border-radius:6px;word-break:break-all}
-    ul{padding-left:20px}
-    .warn{border-color:#fde68a;background:#fffbeb}
-    .ok{border-color:#bbf7d0;background:#f0fdf4}
-    .legal{border-color:#c7d2fe;background:#eef2ff}
-    .wechat-guide{position:fixed;inset:0;z-index:1000;box-sizing:border-box;display:flex;flex-direction:column;align-items:center;padding:18px 24px 36px;background:rgba(17,24,39,.97);color:#fff;text-align:center}
-    .wechat-arrow{align-self:flex-end;margin:0 2px 0 0;font-size:46px;line-height:1}
-    .wechat-guide h2{max-width:360px;margin:16vh 0 8px;font-size:28px;line-height:1.35}
-    .wechat-guide p{max-width:360px;margin:6px 0;color:#e5e7eb}
-    .wechat-steps{max-width:360px;margin:18px 0 12px;padding:14px 18px;border:1px solid #4b5563;border-radius:8px;background:#1f2937;font-size:18px;font-weight:700}
-    .copy-button,.guide-detail{width:min(100%,360px);box-sizing:border-box;border:0;border-radius:8px;padding:13px 16px;font:inherit;font-weight:700;cursor:pointer}
-    .copy-button{margin-top:18px;background:#fff;color:#111827}
-    .guide-detail{margin-top:10px;background:transparent;color:#d1d5db;text-decoration:underline}
-    .copy-status{min-height:24px;margin-top:8px;color:#bbf7d0;font-size:14px}
-    table{width:100%;border-collapse:collapse;margin-top:8px}
-    td{border-top:1px solid #e5e7eb;padding:8px 4px;vertical-align:top}
-    td:first-child{width:140px;color:#6b7280}
-    @media (max-width:640px){.download-grid{grid-template-columns:1fr}.secondary{display:block;margin:12px 0 0}.qr-box img{width:168px;height:168px}}
+    :root{
+      color-scheme:light;
+      --ink:#171a21;
+      --muted:#626a76;
+      --line:#dfe3e8;
+      --surface:#f5f7fa;
+      --surface-strong:#edf2f7;
+      --blue:#1677ff;
+      --blue-dark:#0c5ed7;
+      --teal:#087f7a;
+      --pink:#d9478d;
+      --green:#18794e;
+      --white:#ffffff;
+      --page-width:1180px;
+    }
+    *{box-sizing:border-box;letter-spacing:0}
+    html{scroll-behavior:smooth}
+    body{margin:0;background:var(--white);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.65}
+    img{max-width:100%}
+    a{color:inherit}
+    button,a{-webkit-tap-highlight-color:transparent}
+    .shell{width:min(var(--page-width),calc(100% - 40px));margin:0 auto}
+    .topbar{border-bottom:1px solid var(--line);background:rgba(255,255,255,.96)}
+    .topbar-inner{height:68px;display:flex;align-items:center;justify-content:space-between;gap:28px}
+    .brand{display:inline-flex;align-items:center;gap:11px;color:var(--ink);font-size:18px;font-weight:760;text-decoration:none;white-space:nowrap}
+    .brand img{width:42px;height:42px;border:1px solid var(--line);border-radius:8px;background:#fff;object-fit:cover}
+    .topnav{display:flex;align-items:center;gap:26px;font-size:14px;color:var(--muted)}
+    .topnav a{text-decoration:none}
+    .topnav a:hover,.topnav a:focus-visible{color:var(--blue)}
+    .download-stage{border-bottom:1px solid var(--line);background:#fff}
+    .stage-grid{min-height:640px;padding:42px 0 46px;display:grid;grid-template-columns:minmax(0,1fr) minmax(470px,570px);align-items:center;gap:62px}
+    .status{display:inline-flex;align-items:center;gap:8px;margin-bottom:16px;padding:5px 9px;border:1px solid #b9dfcc;border-radius:4px;background:#f1faf5;color:var(--green);font-size:14px;font-weight:720}
+    .status-dot{width:8px;height:8px;border-radius:50%;background:var(--green)}
+    h1,h2,h3,p{margin-top:0}
+    h1{margin-bottom:14px;font-size:54px;line-height:1.12;font-weight:820}
+    .lead{max-width:590px;margin-bottom:22px;color:#343a44;font-size:20px;line-height:1.7}
+    .quick-facts{display:grid;gap:10px;margin:0 0 28px;padding:0;list-style:none;color:#343a44}
+    .quick-facts li{display:flex;align-items:flex-start;gap:10px}
+    .fact-mark{flex:0 0 22px;width:22px;height:22px;margin-top:2px;border:1px solid #aad9d5;border-radius:50%;color:var(--teal);font-size:14px;font-weight:800;line-height:20px;text-align:center}
+    .actions{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+    .primary-button,.secondary-button{display:inline-flex;min-height:48px;align-items:center;justify-content:center;border-radius:6px;padding:11px 18px;font-weight:760;text-decoration:none;transition:background-color .18s ease,border-color .18s ease,color .18s ease}
+    .primary-button{border:1px solid var(--blue);background:var(--blue);color:#fff}
+    .primary-button:hover,.primary-button:focus-visible{border-color:var(--blue-dark);background:var(--blue-dark)}
+    .secondary-button{border:1px solid var(--line);background:#fff;color:#343a44}
+    .secondary-button:hover,.secondary-button:focus-visible{border-color:#aab2bd;background:var(--surface)}
+    .compatibility{margin:15px 0 0;color:var(--muted);font-size:13px}
+    .product-download{display:grid;grid-template-columns:minmax(210px,1fr) 260px;gap:22px;align-items:end}
+    .device-preview{margin:0;min-width:0}
+    .device-frame{height:470px;overflow:hidden;border:1px solid #cfd5dc;border-radius:8px;background:var(--surface);box-shadow:0 18px 45px rgba(26,35,49,.13)}
+    .device-frame img{display:block;width:100%;height:100%;object-fit:cover;object-position:top}
+    .device-preview figcaption{margin-top:10px;color:var(--muted);font-size:13px;text-align:center}
+    .qr-panel{padding:18px;border:1px solid var(--line);border-radius:8px;background:var(--surface);text-align:center}
+    .qr-app{display:flex;align-items:center;justify-content:center;gap:9px;margin-bottom:12px;font-weight:780}
+    .qr-app img{width:34px;height:34px;border:1px solid var(--line);border-radius:6px;background:#fff}
+    .qr-link{display:block;padding:8px;border:1px solid #cdd3da;border-radius:6px;background:#fff}
+    .qr-link img{display:block;width:100%;height:auto}
+    .qr-caption{margin:12px 0 5px;color:#303640;font-size:14px;font-weight:700}
+    .qr-note{margin:0;color:var(--muted);font-size:12px}
+    .save-qr{display:inline-block;margin-top:9px;color:var(--blue-dark);font-size:13px;text-decoration:none}
+    .save-qr:hover,.save-qr:focus-visible{text-decoration:underline}
+    .trust-strip{border-bottom:1px solid var(--line);background:var(--surface)}
+    .trust-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin:0;padding:24px 0}
+    .trust-grid div{min-width:0;padding:0 22px;border-right:1px solid var(--line)}
+    .trust-grid div:first-child{padding-left:0}
+    .trust-grid div:last-child{padding-right:0;border-right:0}
+    .trust-grid dt{margin-bottom:4px;color:var(--muted);font-size:12px}
+    .trust-grid dd{margin:0;font-size:15px;font-weight:750;word-break:break-word}
+    .section{padding:72px 0}
+    .section-heading{max-width:680px;margin-bottom:32px}
+    .section-kicker{margin-bottom:8px;color:var(--teal);font-size:14px;font-weight:760}
+    h2{margin-bottom:12px;font-size:34px;line-height:1.25}
+    .section-copy{margin-bottom:0;color:var(--muted);font-size:17px}
+    .feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+    .feature-card{padding:24px;border:1px solid var(--line);border-radius:8px;background:#fff}
+    .feature-number{display:flex;width:34px;height:34px;align-items:center;justify-content:center;margin-bottom:18px;border:1px solid currentColor;border-radius:6px;font-size:13px;font-weight:800}
+    .feature-card:nth-child(1) .feature-number{color:var(--blue)}
+    .feature-card:nth-child(2) .feature-number{color:var(--pink)}
+    .feature-card:nth-child(3) .feature-number{color:var(--teal)}
+    h3{margin-bottom:8px;font-size:20px}
+    .feature-card p{margin-bottom:0;color:var(--muted)}
+    .preview-section{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--surface)}
+    .screenshot-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+    .screenshot-card{margin:0;overflow:hidden;border:1px solid var(--line);border-radius:8px;background:#fff}
+    .screenshot-card img{display:block;width:100%;aspect-ratio:9/14;object-fit:cover;object-position:top}
+    .screenshot-card figcaption{min-height:82px;padding:16px 18px;border-top:1px solid var(--line)}
+    .screenshot-card strong{display:block;margin-bottom:3px}
+    .screenshot-card span{color:var(--muted);font-size:14px}
+    .download-options{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:64px;align-items:start}
+    .route-list{border-top:1px solid var(--line)}
+    .route-row{display:grid;grid-template-columns:130px minmax(0,1fr) auto;gap:20px;align-items:center;padding:22px 0;border-bottom:1px solid var(--line)}
+    .route-label{font-weight:780}
+    .recommended{display:block;width:max-content;margin-top:5px;padding:2px 6px;border:1px solid #b9dfcc;border-radius:4px;color:var(--green);font-size:11px;font-weight:720}
+    .route-row p{margin:0;color:var(--muted);font-size:14px}
+    .route-link{color:var(--blue-dark);font-size:14px;font-weight:730;text-decoration:none;white-space:nowrap}
+    .route-link:hover,.route-link:focus-visible{text-decoration:underline}
+    .upgrade-note{margin-top:22px;padding-left:14px;border-left:3px solid var(--pink);color:#414852;font-size:14px}
+    .details-section{padding-top:0}
+    details{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+    summary{padding:18px 0;cursor:pointer;font-weight:760}
+    .detail-grid{display:grid;grid-template-columns:190px minmax(0,1fr);margin:0 0 22px}
+    .detail-grid dt,.detail-grid dd{margin:0;padding:8px 0;border-top:1px solid #edf0f3}
+    .detail-grid dt{color:var(--muted)}
+    .detail-grid dd{word-break:break-all}
+    code{padding:2px 5px;border-radius:4px;background:var(--surface-strong);font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace;font-size:12px}
+    .legal-note{padding:28px 0;border-top:1px solid var(--line);color:#454c56;font-size:14px}
+    .legal-note h2{font-size:22px}
+    .legal-note p:last-child{margin-bottom:0}
+    footer{border-top:1px solid var(--line);background:var(--surface)}
+    .footer-inner{display:flex;align-items:flex-start;justify-content:space-between;gap:28px;padding:28px 0;color:var(--muted);font-size:13px}
+    .footer-links{display:flex;gap:18px;flex-wrap:wrap}
+    .footer-links a{color:#3e4651;text-decoration:none}
+    .footer-links a:hover,.footer-links a:focus-visible{text-decoration:underline}
+    @media (max-width:1020px){
+      .stage-grid{grid-template-columns:1fr;gap:36px}
+      .stage-copy{max-width:720px}
+      .product-download{display:block;max-width:630px}
+      .device-preview{display:none}
+      .qr-panel{display:grid;width:100%;grid-template-columns:180px minmax(0,1fr);grid-template-areas:"qr app" "qr caption" "qr note" "qr save";column-gap:20px;align-items:center;padding:16px;text-align:left}
+      .qr-app{grid-area:app;justify-content:flex-start;margin-bottom:7px}
+      .qr-link{grid-area:qr;width:180px}
+      .qr-caption{grid-area:caption;margin:0 0 3px}
+      .qr-note{grid-area:note}
+      .save-qr{grid-area:save;justify-self:start;margin-top:7px}
+      .download-options{grid-template-columns:1fr;gap:28px}
+    }
+    @media (max-width:760px){
+      .shell{width:min(var(--page-width),calc(100% - 28px))}
+      .topbar-inner{height:62px}
+      .brand{font-size:16px}
+      .brand img{width:38px;height:38px}
+      .topnav{gap:15px;font-size:13px}
+      .topnav a:first-child{display:none}
+      .stage-grid{min-height:0;padding:30px 0 36px;gap:28px}
+      h1{font-size:40px}
+      .lead{font-size:18px}
+      .actions{align-items:stretch;flex-direction:column}
+      .primary-button,.secondary-button{width:100%}
+      .product-download{display:block;max-width:none}
+      .device-preview{display:none}
+      .qr-panel{display:grid;width:100%;grid-template-columns:150px minmax(0,1fr);grid-template-areas:"qr app" "qr caption" "qr note" "qr save";column-gap:16px;align-items:center;padding:14px;text-align:left}
+      .qr-app{grid-area:app;justify-content:flex-start;margin-bottom:7px}
+      .qr-link{grid-area:qr;width:150px}
+      .qr-caption{grid-area:caption;margin:0 0 3px}
+      .qr-note{grid-area:note}
+      .save-qr{grid-area:save;justify-self:start;margin-top:7px}
+      .trust-grid{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:22px}
+      .trust-grid div{padding:0 16px}
+      .trust-grid div:nth-child(2){padding-right:0;border-right:0}
+      .trust-grid div:nth-child(3){padding-left:0}
+      .section{padding:52px 0}
+      h2{font-size:29px}
+      .feature-grid{grid-template-columns:1fr}
+      .screenshot-grid{grid-template-columns:repeat(3,260px);overflow-x:auto;padding-bottom:12px;scroll-snap-type:x mandatory}
+      .screenshot-card{scroll-snap-align:start}
+      .route-row{grid-template-columns:1fr auto;gap:8px 16px}
+      .route-row p{grid-column:1/-1}
+      .detail-grid{grid-template-columns:1fr}
+      .detail-grid dt{padding-bottom:2px}
+      .detail-grid dd{padding-top:2px;border-top:0}
+      .footer-inner{flex-direction:column}
+    }
+    @media (max-width:390px){
+      .topnav a:nth-child(2){display:none}
+      h1{font-size:36px}
+      .stage-grid{padding:20px 0 22px;gap:18px}
+      .compatibility{display:none}
+      .qr-panel{grid-template-columns:138px minmax(0,1fr);column-gap:12px}
+      .qr-link{width:138px}
+      .trust-grid{grid-template-columns:1fr;row-gap:0}
+      .trust-grid div,.trust-grid div:nth-child(2),.trust-grid div:nth-child(3){padding:14px 0;border-right:0;border-bottom:1px solid var(--line)}
+      .trust-grid div:last-child{border-bottom:0}
+      .route-row{grid-template-columns:1fr}
+      .route-link{white-space:normal}
+    }
   </style>
 </head>
 <body>
-  <section id="wechatGuide" class="wechat-guide" role="dialog" aria-modal="true" aria-labelledby="wechatTitle" hidden>
-    <div class="wechat-arrow" aria-hidden="true">↗</div>
-    <h2 id="wechatTitle">请在浏览器中下载</h2>
-    <p>微信会拦截 Android 安装包，这不是下载失败。</p>
-    <div class="wechat-steps">点右上角 ···<br />选择“在浏览器打开”</div>
-    <p>进入手机浏览器后，再点“官方下载 APK”即可。</p>
-    <button id="copyDownloadUrl" class="copy-button" type="button">备用：复制下载链接</button>
-    <div id="copyStatus" class="copy-status" role="status" aria-live="polite"></div>
-    <button id="viewPage" class="guide-detail" type="button">查看版本与安全信息</button>
-  </section>
+  <header class="topbar">
+    <div class="shell topbar-inner">
+      <a class="brand" href="#top" aria-label="源图casepro Android 下载首页">
+        <img src="./assets/casepro-app-logo.png" alt="" />
+        <span>源图casepro</span>
+      </a>
+      <nav class="topnav" aria-label="页面导航">
+        <a href="#features">核心能力</a>
+        <a href="#preview">界面预览</a>
+        <a href="#download">下载方式</a>
+      </nav>
+    </div>
+  </header>
 
-  <h1>源图casepro <span class="nowrap">Android 下载</span></h1>
-  <p class="muted">通用 Android 安装包，适用于可安装 APK 的 Android 手机。当前官方直装版已发布，应用宝尚未正式上线。</p>
+  <main id="top">
+    <section class="download-stage" aria-labelledby="page-title">
+      <div class="shell stage-grid">
+        <div class="stage-copy">
+          <div class="status"><span class="status-dot" aria-hidden="true"></span>应用宝已上架 · 官网修复版已更新</div>
+          <h1 id="page-title">源图casepro</h1>
+          <p class="lead">把图片、视频与备注按个案和合集整理在本机，需要时清楚输出，长期资料也能完整备份。</p>
+          <ul class="quick-facts">
+            <li><span class="fact-mark" aria-hidden="true">✓</span><span>个案、合集、文件夹与多关键词检索</span></li>
+            <li><span class="fact-mark" aria-hidden="true">✓</span><span>图片与视频混合录入，支持查看、编辑和备注</span></li>
+            <li><span class="fact-mark" aria-hidden="true">✓</span><span>PDF、长图、图片资料、ZIP 与文件夹备份</span></li>
+          </ul>
+          <div class="actions">
+            <a class="primary-button" href="https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.54-55.apk" download>下载官网修复版 0.1.54</a>
+            <a class="secondary-button" href="https://a.app.qq.com/o/simple.jsp?pkgname=com.csysum.casepro.android">应用宝下载 0.1.53</a>
+          </div>
+          <p class="compatibility">0.1.54 已修复部分华为、小米机型点击“从系统相册添加”却进入文件管理器的问题。应用宝新版需另行审核，当前商店版仍为 0.1.53。</p>
+        </div>
 
-  <div class="card ok">
-    <h2>官方直装版下载</h2>
-    <div class="download-grid">
-      <div>
-        <p><b>Android 官方直装版已更新到 0.1.53 (54)。</b></p>
-        <p>本版启用已核验的 APP 备案号和备案主体自有更新接口，并确保备案查询按钮在标准手机布局中完整显示；同时继续保留图片与视频混合录入、既有导出、完整卡片资料包和公网更新回退。已完成 757 项自动化测试、完整 lint、发布签名、R8、权限、16 KB 对齐和覆盖安装界面检查。应用宝尚未正式上线。</p>
-        <p>
-          <a id="downloadButton" class="primary" href="https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.53-54.apk" download>官方下载 APK</a>
-          <a class="secondary" href="./downloads/android/latest.json">查看版本信息</a>
-        </p>
-        <p class="muted">如果点击后没有反应，请长按复制下面的腾讯云官方下载链接，再粘贴到系统浏览器或下载器打开。备用镜像只作为网络异常时的后备；两个下载链接对应同一签名安装包，可用下方 SHA256 校验。</p>
-        <a class="linkbox" href="https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.53-54.apk" download>https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.53-54.apk</a>
-        <a class="linkbox" href="https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.53-54.apk" download>https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.53-54.apk</a>
-        <table>
-          <tr><td>应用名</td><td>源图casepro</td></tr>
-          <tr><td>状态</td><td>官方直装版已发布，尚未在应用宝上线</td></tr>
-          <tr><td>版本</td><td>0.1.53 (54)</td></tr>
-          <tr><td>Android 提交</td><td><code>8127a5a</code></td></tr>
-          <tr><td>包名</td><td><code>com.csysum.casepro.android</code></td></tr>
-          <tr><td>APP 备案号</td><td><code>粤ICP备2026107174号-1A</code></td></tr>
-          <tr><td>签名证书 SHA256</td><td><code>7ba168d650cb468b708af118172dfab45bf3fba75927a72a687595a1b5711c42</code></td></tr>
-          <tr><td>文件 SHA256</td><td><code>f6eae7274280fa7eaf9c268fbced4b57331f82a10680409676829df18538b0e8</code></td></tr>
-          <tr><td>技术支持</td><td><a href="mailto:750293424@qq.com">750293424@qq.com</a></td></tr>
-        </table>
+        <div class="product-download">
+          <figure class="device-preview">
+            <div class="device-frame">
+              <img src="./assets/screenshots/android-home.png" alt="源图casepro Android 首页，显示个案、合集、备份与设置入口" fetchpriority="high" />
+            </div>
+            <figcaption>本机归档入口一目了然</figcaption>
+          </figure>
+
+          <aside class="qr-panel" aria-label="应用宝下载二维码">
+            <div class="qr-app">
+              <img src="./assets/casepro-app-logo.png" alt="" />
+              <span>应用宝下载 0.1.53</span>
+            </div>
+            <a class="qr-link" href="https://a.app.qq.com/o/simple.jsp?pkgname=com.csysum.casepro.android" aria-label="打开源图casepro 应用宝下载页">
+              <img src="./assets/appbao-download-qr.png" alt="源图casepro 应用宝下载二维码" />
+            </a>
+            <p class="qr-caption">微信扫码进入腾讯应用宝</p>
+            <p class="qr-note">商店 0.1.54 更新待审核</p>
+            <a class="save-qr" href="./assets/appbao-download-qr.png" download="源图casepro-应用宝下载二维码.png">保存高清二维码</a>
+          </aside>
+        </div>
       </div>
-      <div class="qr-box">
-        <img src="./downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.53-54" alt="源图casepro Android APK 直接下载二维码" />
-        <div>扫码直接下载 0.1.53 (54) APK</div>
+    </section>
+
+    <section class="trust-strip" aria-label="版本与合规信息">
+      <dl class="shell trust-grid">
+        <div><dt>官方渠道</dt><dd>应用宝 / 官网</dd></div>
+        <div><dt>当前版本</dt><dd>官网 0.1.54 · 应用宝 0.1.53</dd></div>
+        <div><dt>APP 备案号</dt><dd>粤ICP备2026107174号-1A</dd></div>
+        <div><dt>资料存储</dt><dd>默认保存在本机</dd></div>
+      </dl>
+    </section>
+
+    <section id="features" class="section">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="section-kicker">围绕真实资料流程</p>
+          <h2>从录入到输出，保持清楚可控</h2>
+          <p class="section-copy">适合持续积累图片与记录的工作场景，资料组织、查看和交付都在同一套结构里完成。</p>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-number">01</div>
+            <h3>有序归档</h3>
+            <p>按个案、合集和文件夹归类，用姓名、备注、主题或日期快速找到需要的内容。</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-number">02</div>
+            <h3>细致整理</h3>
+            <p>照片和视频可以混合录入，图片支持查看、编辑、排序与逐项备注。</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-number">03</div>
+            <h3>可靠输出</h3>
+            <p>按用途导出 PDF、长图或图片资料，也可生成 ZIP 与文件夹完整备份。</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="preview" class="section preview-section">
+      <div class="shell">
+        <div class="section-heading">
+          <p class="section-kicker">真实应用界面</p>
+          <h2>资料结构看得见，也拿得走</h2>
+          <p class="section-copy">以下均为 Android 正式版本界面，示例内容不含真实个人资料。</p>
+        </div>
+        <div class="screenshot-grid">
+          <figure class="screenshot-card">
+            <img src="./assets/screenshots/android-home.png" alt="源图casepro Android 首页" loading="lazy" />
+            <figcaption><strong>统一入口</strong><span>个案、合集、文件夹、备份与设置集中管理</span></figcaption>
+          </figure>
+          <figure class="screenshot-card">
+            <img src="./assets/screenshots/android-case-detail.png" alt="源图casepro 个案详情与媒体整理界面" loading="lazy" />
+            <figcaption><strong>个案与媒体</strong><span>图片、视频、备注与基本信息放在同一份资料中</span></figcaption>
+          </figure>
+          <figure class="screenshot-card">
+            <img src="./assets/screenshots/android-backup.png" alt="源图casepro 完整备份界面" loading="lazy" />
+            <figcaption><strong>完整备份</strong><span>导出 ZIP 或文件夹，便于换机、迁移和长期保管</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="download" class="section">
+      <div class="shell download-options">
+        <div class="section-heading">
+          <p class="section-kicker">选择下载方式</p>
+          <h2>官网修复版已先行提供</h2>
+          <p class="section-copy">需要立即解决系统相册入口问题，请下载官网 0.1.54；应用宝 0.1.54 需完成版本更新审核后才会替换当前商店版。</p>
+        </div>
+        <div>
+          <div class="route-list">
+            <div class="route-row">
+              <div class="route-label">官网 APK<span class="recommended">当前新版</span></div>
+              <p>0.1.54 已修复部分国产手机的系统相册入口，使用原发布签名，可直接覆盖安装。</p>
+              <a class="route-link" href="https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.54-55.apk" download>下载 0.1.54</a>
+            </div>
+            <div class="route-row">
+              <div class="route-label">应用宝</div>
+              <p>商店当前仍为 0.1.53；0.1.54 提交并通过应用宝审核后会在这里更新。</p>
+              <a class="route-link" href="https://a.app.qq.com/o/simple.jsp?pkgname=com.csysum.casepro.android">前往应用宝</a>
+            </div>
+          </div>
+          <p class="upgrade-note">已有旧版时请选择覆盖安装。不要先卸载旧版，也不要清除应用数据；重要资料升级前建议先导出完整备份。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section details-section">
+      <div class="shell">
+        <details>
+          <summary>查看安装包与校验信息</summary>
+          <dl class="detail-grid">
+            <dt>应用名</dt><dd>源图casepro</dd>
+            <dt>包名</dt><dd><code>com.csysum.casepro.android</code></dd>
+            <dt>版本</dt><dd>0.1.54 (55)</dd>
+            <dt>APP 备案号</dt><dd><code>粤ICP备2026107174号-1A</code></dd>
+            <dt>安装包大小</dt><dd>20,064,168 bytes</dd>
+            <dt>文件 SHA256</dt><dd><code>27bf6d2ec9a583a10a44704cbc3af03425a34589ebca1cc7e20b70c4e9f584fa</code></dd>
+            <dt>签名证书 SHA256</dt><dd><code>7ba168d650cb468b708af118172dfab45bf3fba75927a72a687595a1b5711c42</code></dd>
+          </dl>
+        </details>
+        <div class="legal-note">
+          <h2>正版与资料安全</h2>
+          <p>请只从应用宝或本页官网渠道下载。非官方改包、冒用签名或校验不一致的文件请勿安装。</p>
+          <p>源图casepro 的软件、界面、文字、图形及相关材料受著作权和其他适用法律保护。未经许可，不得反编译、修改、重新打包、冒用签名、转售或传播。</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-inner">
+      <div>
+        <strong>源图casepro</strong><br />
+        Android 官方下载与技术支持
+      </div>
+      <div class="footer-links">
+        <a href="./privacy.html">隐私政策</a>
+        <a href="./terms.html">用户协议</a>
+        <a href="mailto:750293424@qq.com">技术支持</a>
+        <span>粤ICP备2026107174号-1A</span>
       </div>
     </div>
-  </div>
-
-  <div class="card legal">
-    <h2>正版与知识产权</h2>
-    <p>源图casepro 软件、界面、文字、图形及相关材料受著作权和其他适用法律保护。安装包仅供获得授权的用户安装和测试；未经许可，不得反编译、修改、重新打包、冒用签名、转售或传播。</p>
-    <p>请仅从本页下载，并核对上方包名、签名证书 SHA256 与文件 SHA256。第三方改包、非官方镜像或校验不一致的文件请勿安装。</p>
-  </div>
-
-  <div class="card warn">
-    <h2>使用注意</h2>
-    <p>这是应用宝上线前的官方直装版。覆盖安装通常会保留 App 内已有资料，但重要资料仍建议先在 App 内导出 ZIP 备份。</p>
-    <ul>
-      <li>请优先使用合成/测试图片验证导入、查看和备份流程。</li>
-      <li>如发现系统相册、文件管理器或 App 内媒体显示异常，请先停止继续操作。</li>
-      <li>请联系技术支持邮箱并说明手机品牌、系统版本、发生时间和操作路径。</li>
-    </ul>
-  </div>
-
-  <div class="card">
-    <h2>旧版本升级</h2>
-    <p>已安装旧版的用户可在 App 设置中点击“检查更新”，再打开官网下载。安装新 APK 时请选择覆盖安装，<b>不要卸载旧版，也不要清除 App 数据</b>。0.1.53 与旧版使用同一发布签名，覆盖安装可保留现有数据；重要资料升级前仍建议先在 App 内导出 ZIP 备份。</p>
-  </div>
-
-  <div class="card">
-    <h2>隐私与边界</h2>
-    <ul>
-      <li>Android 当前版本以本机存储和手动备份为核心。</li>
-      <li>当前版本不提供账号、云同步、统计、崩溃上报、支付或后台上传。</li>
-      <li>导出或分享文件后，请自行妥善保管。</li>
-      <li>隐私政策：<a href="./privacy.html">查看隐私政策</a></li>
-      <li>用户协议：<a href="./terms.html">查看用户协议</a></li>
-      <li>技术支持：<a href="mailto:750293424@qq.com">750293424@qq.com</a></li>
-    </ul>
-  </div>
-
-  <p class="muted">最后更新：2026-08-01，Android 官方直装版 0.1.53 (54)</p>
-  <script>
-    (function () {
-      var downloadButton = document.getElementById("downloadButton");
-      var downloadUrl = downloadButton.href;
-      var isWechat = /MicroMessenger/i.test(navigator.userAgent);
-      var guide = document.getElementById("wechatGuide");
-      var status = document.getElementById("copyStatus");
-
-      function showGuide() {
-        guide.hidden = false;
-      }
-
-      function copyDownloadUrl() {
-        function done() {
-          status.textContent = "下载链接已复制，请粘贴到手机浏览器打开。";
-        }
-
-        if (navigator.clipboard && window.isSecureContext) {
-          navigator.clipboard.writeText(downloadUrl).then(done, fallbackCopy);
-          return;
-        }
-        fallbackCopy();
-
-        function fallbackCopy() {
-          var input = document.createElement("textarea");
-          input.value = downloadUrl;
-          input.setAttribute("readonly", "");
-          input.style.position = "fixed";
-          input.style.opacity = "0";
-          document.body.appendChild(input);
-          input.select();
-          try {
-            if (document.execCommand("copy")) {
-              done();
-            } else {
-              status.textContent = "请长按页面中的官方下载链接复制。";
-            }
-          } catch (error) {
-            status.textContent = "请长按页面中的官方下载链接复制。";
-          }
-          document.body.removeChild(input);
-        }
-      }
-
-      if (!isWechat) {
-        return;
-      }
-
-      showGuide();
-      downloadButton.addEventListener("click", function (event) {
-        event.preventDefault();
-        showGuide();
-      });
-      document.getElementById("copyDownloadUrl").addEventListener("click", copyDownloadUrl);
-      document.getElementById("viewPage").addEventListener("click", function () {
-        guide.hidden = true;
-      });
-    }());
-  </script>
+  </footer>
 </body>
 </html>

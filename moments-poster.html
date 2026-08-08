@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=1080,initial-scale=1" />
+  <title>源图casepro 朋友圈宣传海报</title>
+  <style>
+    :root{
+      --ink:#151922;
+      --muted:#626b78;
+      --line:#d9e0e7;
+      --blue:#1677ff;
+      --teal:#087f7a;
+      --pink:#d9478d;
+      --green:#18794e;
+      --paper:#ffffff;
+      --surface:#f4f7fa;
+    }
+    *{box-sizing:border-box;letter-spacing:0}
+    html,body{width:1080px;height:1440px;margin:0;overflow:hidden}
+    body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Segoe UI",sans-serif;background:#20252d;color:var(--ink)}
+    .poster{position:relative;width:1080px;height:1440px;overflow:hidden;padding:54px 58px;background:var(--surface)}
+    .poster::before{content:"";position:absolute;inset:0 0 auto 0;height:12px;background:var(--blue)}
+    .topline{display:flex;height:82px;align-items:center;justify-content:space-between;gap:28px}
+    .brand{display:flex;align-items:center;gap:18px}
+    .brand img{width:76px;height:76px;border:2px solid var(--line);border-radius:8px;background:#fff}
+    .brand-copy{display:flex;flex-direction:column;justify-content:center}
+    .platform{color:var(--muted);font-size:22px;font-weight:600;line-height:1.3}
+    .status{display:flex;align-items:center;gap:10px;padding:10px 14px;border:2px solid #b9dfcc;border-radius:6px;background:#f0faf5;color:var(--green);font-size:22px;font-weight:760}
+    .status-dot{width:12px;height:12px;border-radius:50%;background:var(--green)}
+    h1{margin:24px 0 2px;font-size:72px;line-height:1.12;font-weight:850}
+    .tagline{margin:0;color:#313843;font-size:34px;font-weight:680;line-height:1.5}
+    .subline{margin:8px 0 0;color:var(--teal);font-size:24px;font-weight:700}
+    .screens{display:grid;height:548px;grid-template-columns:1fr 1fr;gap:24px;margin-top:30px}
+    .screen{display:flex;min-width:0;flex-direction:column;margin:0}
+    .screen-window{height:500px;overflow:hidden;border:2px solid var(--line);border-radius:8px;background:#fff;box-shadow:0 16px 36px rgba(34,46,62,.12)}
+    .screen-window img{display:block;width:100%;height:100%;object-fit:cover;object-position:top}
+    .screen figcaption{height:48px;padding-top:10px;color:#4a535f;font-size:21px;font-weight:700;text-align:center}
+    .features{display:grid;height:118px;grid-template-columns:repeat(4,1fr);margin-top:18px;border-top:2px solid var(--line);border-bottom:2px solid var(--line);background:#fff}
+    .feature{display:flex;min-width:0;flex-direction:column;justify-content:center;padding:0 18px;border-right:2px solid var(--line)}
+    .feature:last-child{border-right:0}
+    .feature strong{font-size:23px;line-height:1.35}
+    .feature span{margin-top:3px;color:var(--muted);font-size:18px;line-height:1.35}
+    .feature:nth-child(1) strong{color:var(--blue)}
+    .feature:nth-child(2) strong{color:var(--pink)}
+    .feature:nth-child(3) strong{color:var(--teal)}
+    .feature:nth-child(4) strong{color:#8a5a12}
+    .download{position:absolute;right:58px;bottom:48px;left:58px;height:292px;display:grid;grid-template-columns:minmax(0,1fr) 258px;gap:30px;align-items:center;padding:26px 28px;border:2px solid #cfd8e3;border-radius:8px;background:#fff}
+    .download-copy{min-width:0}
+    .download-label{margin:0 0 8px;color:var(--blue);font-size:22px;font-weight:800}
+    h2{margin:0 0 10px;font-size:42px;line-height:1.2}
+    .download-copy p{margin:0;color:#3e4651;font-size:23px;line-height:1.55}
+    .search-name{display:inline-block;margin-top:13px;padding:7px 11px;border:2px solid var(--line);border-radius:6px;background:var(--surface);font-size:20px;font-weight:700}
+    .meta{margin-top:14px;color:var(--muted);font-size:16px;line-height:1.5}
+    .qr{display:flex;flex-direction:column;align-items:center;justify-content:center}
+    .qr img{display:block;width:238px;height:238px;padding:8px;border:2px solid #cfd5dc;border-radius:6px;background:#fff}
+  </style>
+</head>
+<body>
+  <main id="poster" class="poster" aria-label="源图casepro 朋友圈宣传海报">
+    <div class="topline">
+      <div class="brand">
+        <img src="./assets/casepro-app-logo.png" alt="源图casepro 图标" />
+        <div class="brand-copy">
+          <span class="platform">Android 版</span>
+        </div>
+      </div>
+      <div class="status"><span class="status-dot" aria-hidden="true"></span>应用宝已上架</div>
+    </div>
+
+    <h1>源图casepro</h1>
+    <p class="tagline">把图片、视频与备注，整理成长期可用的资料</p>
+    <p class="subline">本机存储 · 清楚输出 · 完整备份</p>
+
+    <section class="screens" aria-label="应用界面预览">
+      <figure class="screen">
+        <div class="screen-window">
+          <img src="./assets/screenshots/android-case-detail.png" alt="个案资料与图片整理界面" />
+        </div>
+        <figcaption>个案资料与媒体集中整理</figcaption>
+      </figure>
+      <figure class="screen">
+        <div class="screen-window">
+          <img src="./assets/screenshots/android-backup.png" alt="完整资料备份界面" />
+        </div>
+        <figcaption>完整备份便于迁移与长期保管</figcaption>
+      </figure>
+    </section>
+
+    <section class="features" aria-label="主要功能">
+      <div class="feature"><strong>个案与合集</strong><span>分类归档</span></div>
+      <div class="feature"><strong>图片与视频</strong><span>混合录入</span></div>
+      <div class="feature"><strong>编辑与备注</strong><span>持续整理</span></div>
+      <div class="feature"><strong>多种输出</strong><span>PDF · 长图 · ZIP</span></div>
+    </section>
+
+    <section class="download" aria-label="应用宝下载">
+      <div class="download-copy">
+        <p class="download-label">腾讯应用宝官方下载</p>
+        <h2>微信扫码，立即下载</h2>
+        <p>也可以在应用宝搜索：</p>
+        <div class="search-name">源图casepro</div>
+        <div class="meta">版本 0.1.53 · Android 8.0+ · 二维码长期有效<br />APP 备案号：粤ICP备2026107174号-1A</div>
+      </div>
+      <div class="qr">
+        <img src="./assets/appbao-download-qr.png" alt="源图casepro 应用宝下载二维码" />
+      </div>
+    </section>
+  </main>
+</body>
+</html>
