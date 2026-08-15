@@ -2,23 +2,23 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.56",
-  "versionCode": 57,
+  "versionName": "0.1.57",
+  "versionCode": 58,
   "downloadAvailable": true,
-  "status": "available_generic_shared_files_large_attachments",
-  "message": "Android 0.1.56 (57) is available through the official direct-download lane. The per-file attachment limit is now 512 MB, with a 1 GB batch limit and a 256 MB free-space reserve. The misleading 从微信添加 launcher has been removed: the card file + button opens Android's system document picker, while files from WeChat, QQ, email, cloud drives, browsers, and other compatible apps can be opened or shared directly to 源图casepro. Private-storage copy, streaming SHA-256 validation, duplicate removal, authentication, and rollback protections remain enforced. The exact signed APK passed 767 automated tests, full lint, R8, 16 KiB alignment, and retained-data OPPO verification including a real 67.11 MB PDF import. Tencent AppBao currently continues to serve 0.1.53 (54); a store update is a separate submission and review.",
-  "publishedAt": "2026-08-09T13:20:33+08:00",
-  "androidHead": "7b8a9ba",
-  "fileName": "yuantu-casepro-android-0.1.56-57.apk",
+  "status": "available_unified_external_share_transaction_recovery",
+  "message": "Android 0.1.57 (58) is available through the official direct-download lane. Content shared from WeChat, QQ, email, cloud drives, browsers, file managers, and other compatible apps is now copied into controlled staging immediately, before destination selection, so temporary URI authorization cannot expire while the user searches or authenticates. Images, videos, and documents are routed to their matching areas; mixed batches of up to 10 items are content-validated, SHA-256 de-duplicated, authenticated for locked cards, and committed all-or-nothing with persistent rollback recovery and temporary-file cleanup. The existing 512 MB per-item, 1 GB per-batch, and 256 MB free-space reserve protections remain enforced. The exact signed APK passed 820 automated tests, full lint, R8, APK v2 signature, 16 KiB alignment, retained-data OPPO verification, and locked-card plus mixed-batch Redmi verification. Tencent AppBao currently continues to serve 0.1.53 (54); a store update is a separate submission and review.",
+  "publishedAt": "2026-08-16T02:55:46+08:00",
+  "androidHead": "53f02d5",
+  "fileName": "yuantu-casepro-android-0.1.57-58.apk",
   "downloadUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/android.html",
-  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.56-57.apk",
+  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.57-58.apk",
   "mirrorUrls": [
-    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.56-57.apk"
+    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.57-58.apk"
   ],
-  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.56-57",
-  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.56-57.apk",
-  "sha256": "429ac775c0eeeee338856e7584fdb96ee5e503626cd33cb85468fa0b95d6301e",
-  "sizeBytes": 20081448,
+  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.57-58",
+  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.57-58.apk",
+  "sha256": "291c7572a9f761ed6e4b85d74219ea4fdef3548d158f317b5f9261bff5993b68",
+  "sizeBytes": 20114324,
   "signerSha256": "7ba168d650cb468b708af118172dfab45bf3fba75927a72a687595a1b5711c42",
-  "distribution": "appbao_0.1.53_and_official_direct_0.1.56"
+  "distribution": "appbao_0.1.53_and_official_direct_0.1.57"
 }
