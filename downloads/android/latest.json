@@ -2,23 +2,23 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.57",
-  "versionCode": 58,
+  "versionName": "0.1.58",
+  "versionCode": 59,
   "downloadAvailable": true,
-  "status": "available_unified_external_share_transaction_recovery",
-  "message": "Android 0.1.57 (58) is available through the official direct-download lane. Content shared from WeChat, QQ, email, cloud drives, browsers, file managers, and other compatible apps is now copied into controlled staging immediately, before destination selection, so temporary URI authorization cannot expire while the user searches or authenticates. Images, videos, and documents are routed to their matching areas; mixed batches of up to 10 items are content-validated, SHA-256 de-duplicated, authenticated for locked cards, and committed all-or-nothing with persistent rollback recovery and temporary-file cleanup. The existing 512 MB per-item, 1 GB per-batch, and 256 MB free-space reserve protections remain enforced. The exact signed APK passed 820 automated tests, full lint, R8, APK v2 signature, 16 KiB alignment, retained-data OPPO verification, and locked-card plus mixed-batch Redmi verification. Tencent AppBao currently continues to serve 0.1.53 (54); a store update is a separate submission and review.",
-  "publishedAt": "2026-08-16T02:55:46+08:00",
-  "androidHead": "53f02d5",
-  "fileName": "yuantu-casepro-android-0.1.57-58.apk",
+  "status": "available_highest_update_source_selection",
+  "message": "Android 0.1.58 (59) is available through the official direct-download lane. Manual update discovery now reads every configured metadata source and selects the highest valid versionCode, so a stale but newer primary endpoint can no longer hide a newer CloudBase or GitHub release. The existing unified external-share staging, content validation, authentication, all-or-nothing commit, recovery, cleanup, 512 MB per-item limit, 1 GB batch limit, and 256 MB free-space reserve remain unchanged. The exact signed APK passed 820 automated tests with zero failures, full lint with zero errors, R8, APK v2 signature, 16 KiB alignment, signing checks, and launch-readiness boundaries. Tencent AppBao currently continues to serve 0.1.53 (54); a store update is a separate submission and review.",
+  "publishedAt": "2026-08-16T13:47:45+08:00",
+  "androidHead": "08b23f8",
+  "fileName": "yuantu-casepro-android-0.1.58-59.apk",
   "downloadUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/android.html",
-  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.57-58.apk",
+  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.58-59.apk",
   "mirrorUrls": [
-    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.57-58.apk"
+    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.58-59.apk"
   ],
-  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.57-58",
-  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.57-58.apk",
-  "sha256": "291c7572a9f761ed6e4b85d74219ea4fdef3548d158f317b5f9261bff5993b68",
+  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.58-59",
+  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.58-59.apk",
+  "sha256": "9013363b5b9e285d2be573a23848c50708f69f915abce0d8580cb3dd291489c3",
   "sizeBytes": 20114324,
   "signerSha256": "7ba168d650cb468b708af118172dfab45bf3fba75927a72a687595a1b5711c42",
-  "distribution": "appbao_0.1.53_and_official_direct_0.1.57"
+  "distribution": "appbao_0.1.53_and_official_direct_0.1.58"
 }
