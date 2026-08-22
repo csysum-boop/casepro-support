@@ -2,23 +2,23 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.59",
-  "versionCode": 60,
+  "versionName": "0.1.60",
+  "versionCode": 61,
   "downloadAvailable": true,
-  "status": "available_system_gallery_mixed_media",
-  "message": "Android 0.1.59 (60) is available through the official direct-download lane. On Huawei, Xiaomi, and other devices that use the compatibility system-gallery path, From system album now requests the shared photo-and-video collection instead of an image-only collection. CasePro opens a preferred system gallery directly only when it can handle image, video, and mixed-media picking; otherwise Android keeps control through the system resolver. The highest-update-source selection, unified external-share transaction safety, authentication, recovery, cleanup, and storage limits remain unchanged. The exact signed APK passed 824 automated tests with zero failures, full lint with zero errors, R8, APK v2 signature, 16 KiB alignment, signing checks, launch-readiness boundaries, and retained-data Redmi verification. Tencent AppBao currently continues to serve 0.1.53 (54); a store update is a separate submission and review.",
-  "publishedAt": "2026-08-22T02:24:22+08:00",
-  "androidHead": "cb33444",
-  "fileName": "yuantu-casepro-android-0.1.59-60.apk",
+  "status": "available_system_gallery_safe_fallback",
+  "message": "Android 0.1.60 (61) is available through the official direct-download lane. From system album still prefers Android's native mixed photo-and-video picker and a compatible vendor gallery. If no compatible gallery exists, or a vendor gallery claims support but fails to launch, CasePro now automatically retries with Android's openable mixed-media document picker instead of showing an immediate failure. Xiaomi's verified mixed-gallery route remains available. The highest-update-source selection, unified external-share transaction safety, authentication, recovery, cleanup, and storage limits remain unchanged. The exact signed APK passed 826 automated tests with zero failures, full lint with zero errors, R8, APK v2 signature, 16 KiB alignment, signing checks, launch-readiness boundaries, and an AOSP retained-install import of one image and one video. Huawei physical-device re-verification remains separate. Tencent AppBao currently continues to serve 0.1.53 (54); a store update is a separate submission and review.",
+  "publishedAt": "2026-08-22T09:36:39+08:00",
+  "androidHead": "5035219",
+  "fileName": "yuantu-casepro-android-0.1.60-61.apk",
   "downloadUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/android.html",
-  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.59-60.apk",
+  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.60-61.apk",
   "mirrorUrls": [
-    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.59-60.apk"
+    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.60-61.apk"
   ],
-  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.59-60",
-  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.59-60.apk",
-  "sha256": "b0594b47085574689520807f1d44cc462c66d8651e65c9b398cbdb88c3bf5230",
+  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.60-61",
+  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.60-61.apk",
+  "sha256": "ed008c191094038bdb55836719c00fef7a33c8729fbd6e281df0aba7eab91eb3",
   "sizeBytes": 20114508,
   "signerSha256": "7ba168d650cb468b708af118172dfab45bf3fba75927a72a687595a1b5711c42",
-  "distribution": "appbao_0.1.53_and_official_direct_0.1.59"
+  "distribution": "appbao_0.1.53_and_official_direct_0.1.60"
 }
