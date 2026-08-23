@@ -2,23 +2,23 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.61",
-  "versionCode": 62,
+  "versionName": "0.1.62",
+  "versionCode": 63,
   "downloadAvailable": true,
-  "status": "available_system_album_typed_fallback",
-  "message": "Android 0.1.61 (62) is available through the official direct-download lane. From system album no longer falls back to Android's file picker. CasePro still uses the native mixed photo-and-video picker or a compatible mixed vendor gallery first. On devices that cannot open a mixed gallery, CasePro now asks whether to add photos or videos and then opens the matching system album. Only the separate From file action opens the system file picker. The highest-update-source selection, unified external-share transaction safety, authentication, recovery, cleanup, and storage limits remain unchanged. The exact signed APK passed 826 automated tests with zero failures, full lint with zero errors, R8, APK v2 signature, 16 KiB alignment, signing checks, launch-readiness boundaries, an AOSP retained-data mixed photo-and-video import, and runtime confirmation that both typed fallbacks resolve to Gallery rather than DocumentsUI. Huawei physical-device re-verification remains separate. Tencent AppBao currently continues to serve 0.1.53 (54); a store update is a separate submission and review.",
-  "publishedAt": "2026-08-22T23:12:22+08:00",
-  "androidHead": "b8d6d35",
-  "fileName": "yuantu-casepro-android-0.1.61-62.apk",
+  "status": "available_huawei_album_choice_dialog_fix",
+  "message": "Android 0.1.62 (63) is available through the official direct-download lane. It fixes the Huawei fallback dialog that showed only explanatory text and Cancel while hiding the photo and video choices. On devices that cannot open a mixed photo-and-video picker, CasePro now shows two visible choices: add photos from the album or add videos from the album. Only the separate From file action opens the system file picker. The highest-update-source selection, unified external-share transaction safety, authentication, recovery, cleanup, and storage limits remain unchanged. The exact signed APK passed 827 automated tests with zero failures, including a rendered AlertDialog regression that proves both choice rows are visible and the conflicting message area is absent, plus full lint with zero errors, R8, APK v2 signature, 16 KiB alignment, signing checks, and launch-readiness boundaries. Huawei physical-device acceptance of 0.1.62 remains a separate final verification. Tencent AppBao currently continues to serve 0.1.53 (54); a store update is a separate submission and review.",
+  "publishedAt": "2026-08-23T10:24:34+08:00",
+  "androidHead": "fd1c4e1",
+  "fileName": "yuantu-casepro-android-0.1.62-63.apk",
   "downloadUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/android.html",
-  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.61-62.apk",
+  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.62-63.apk",
   "mirrorUrls": [
-    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.61-62.apk"
+    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.62-63.apk"
   ],
-  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.61-62",
-  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.61-62.apk",
-  "sha256": "99e15e8a81bb35d456dc3805487a28a02b6f3ec9e136954d3f1e99b14b1cefb6",
+  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.62-63",
+  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.62-63.apk",
+  "sha256": "b9f1eae05be6a4763bea2a242c8f3fb4f2066de8e97218fe516351d122f01c1b",
   "sizeBytes": 20114508,
   "signerSha256": "7ba168d650cb468b708af118172dfab45bf3fba75927a72a687595a1b5711c42",
-  "distribution": "appbao_0.1.53_and_official_direct_0.1.61"
+  "distribution": "appbao_0.1.53_and_official_direct_0.1.62"
 }
