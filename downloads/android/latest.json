@@ -2,23 +2,23 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.62",
-  "versionCode": 63,
+  "versionName": "0.1.63",
+  "versionCode": 64,
   "downloadAvailable": true,
-  "status": "available_huawei_album_choice_dialog_fix",
-  "message": "Android 0.1.62 (63) is available through the official direct-download lane. It fixes the Huawei fallback dialog that showed only explanatory text and Cancel while hiding the photo and video choices. On devices that cannot open a mixed photo-and-video picker, CasePro now shows two visible choices: add photos from the album or add videos from the album. Only the separate From file action opens the system file picker. The highest-update-source selection, unified external-share transaction safety, authentication, recovery, cleanup, and storage limits remain unchanged. The exact signed APK passed 827 automated tests with zero failures, including a rendered AlertDialog regression that proves both choice rows are visible and the conflicting message area is absent, plus full lint with zero errors, R8, APK v2 signature, 16 KiB alignment, signing checks, and launch-readiness boundaries. Huawei physical-device acceptance of 0.1.62 remains a separate final verification. Tencent AppBao currently continues to serve 0.1.53 (54); a store update is a separate submission and review.",
-  "publishedAt": "2026-08-23T10:24:34+08:00",
-  "androidHead": "fd1c4e1",
-  "fileName": "yuantu-casepro-android-0.1.62-63.apk",
+  "status": "available_duplicate_media_guard",
+  "message": "Android 0.1.63 (64) is available through the official direct-download lane. User media intake now checks exact SHA-256 content within the target card. The same photo or video is skipped even when its file name or source URI changes, while the same content remains allowed in another card and soft-deleted content does not block reimport. The guard covers system album and file intake, pending case or collection forms, camera capture, and external sharing. Duplicate skips are reported clearly and leave no database or private-file residue. Backup restore, case-package import, and intentional annotated copies retain their existing behavior. Retained-data upgrades and duplicate import behavior were accepted on AOSP and OPPO. The final signed APK passed 837 automated tests with zero failures or skips, full lint with zero errors, R8, APK v2 signature, 16 KiB alignment, signing checks, and launch-readiness boundaries. Tencent AppBao currently continues to serve 0.1.53 (54); a store update is a separate submission and review.",
+  "publishedAt": "2026-08-25T17:01:47+08:00",
+  "androidHead": "7a932ad",
+  "fileName": "yuantu-casepro-android-0.1.63-64.apk",
   "downloadUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/android.html",
-  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.62-63.apk",
+  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.63-64.apk",
   "mirrorUrls": [
-    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.62-63.apk"
+    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.63-64.apk"
   ],
-  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.62-63",
-  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.62-63.apk",
-  "sha256": "b9f1eae05be6a4763bea2a242c8f3fb4f2066de8e97218fe516351d122f01c1b",
+  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.63-64",
+  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.63-64.apk",
+  "sha256": "69213cec3fb8a5e65dd68aeb689479df1e031beb9c03bf8d72208c86ae4b33bd",
   "sizeBytes": 20114508,
   "signerSha256": "7ba168d650cb468b708af118172dfab45bf3fba75927a72a687595a1b5711c42",
-  "distribution": "appbao_0.1.53_and_official_direct_0.1.62"
+  "distribution": "appbao_0.1.53_and_official_direct_0.1.63"
 }
