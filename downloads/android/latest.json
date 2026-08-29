@@ -2,23 +2,23 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.63",
-  "versionCode": 64,
+  "versionName": "0.1.64",
+  "versionCode": 65,
   "downloadAvailable": true,
-  "status": "available_duplicate_media_guard",
-  "message": "Android 0.1.63 (64) is available through the official direct-download lane. User media intake now checks exact SHA-256 content within the target card. The same photo or video is skipped even when its file name or source URI changes, while the same content remains allowed in another card and soft-deleted content does not block reimport. The guard covers system album and file intake, pending case or collection forms, camera capture, and external sharing. Duplicate skips are reported clearly and leave no database or private-file residue. Backup restore, case-package import, and intentional annotated copies retain their existing behavior. Retained-data upgrades and duplicate import behavior were accepted on AOSP and OPPO. The final signed APK passed 837 automated tests with zero failures or skips, full lint with zero errors, R8, APK v2 signature, 16 KiB alignment, signing checks, and launch-readiness boundaries. Tencent AppBao currently continues to serve 0.1.53 (54); a store update is a separate submission and review.",
-  "publishedAt": "2026-08-25T17:01:47+08:00",
-  "androidHead": "7a932ad",
-  "fileName": "yuantu-casepro-android-0.1.63-64.apk",
+  "status": "available_complete_card_system_share",
+  "message": "Android 0.1.64 (65) is available through the official direct-download lane. Complete card export now offers both system sharing and local folder saving. System sharing generates and validates the CasePro ZIP before handing it to Android's share panel, where the user can choose QQ, email, cloud drives, or other compatible apps. Locked cards still require fresh local authentication, missing-original handling remains explicit, failed generation is not reported as shared, and share artifacts are bounded by automatic cache cleanup. Existing local folder export remains available and still asks for the destination before generation. A retained-data Redmi upgrade preserved the original install time and card counts, and the final package opened the real Android share chooser with the expected .casepackage.zip name. The final signed APK passed 839 automated tests with zero failures or skips, full lint with zero errors, R8, APK v2 signature, 16 KiB alignment, signing checks, launch-readiness boundaries, and exact installed-APK readback. Tencent AppBao currently continues to serve 0.1.53 (54); a store update is a separate submission and review.",
+  "publishedAt": "2026-08-29T13:38:50+08:00",
+  "androidHead": "e560c55",
+  "fileName": "yuantu-casepro-android-0.1.64-65.apk",
   "downloadUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/android.html",
-  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.63-64.apk",
+  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.64-65.apk",
   "mirrorUrls": [
-    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.63-64.apk"
+    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.64-65.apk"
   ],
-  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.63-64",
-  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.63-64.apk",
-  "sha256": "69213cec3fb8a5e65dd68aeb689479df1e031beb9c03bf8d72208c86ae4b33bd",
+  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.64-65",
+  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.64-65.apk",
+  "sha256": "c3500bced28bcf98c8d307346300dd36ed3c3364e6a0032c9d446bc7b136d8ce",
   "sizeBytes": 20114508,
   "signerSha256": "7ba168d650cb468b708af118172dfab45bf3fba75927a72a687595a1b5711c42",
-  "distribution": "appbao_0.1.53_and_official_direct_0.1.63"
+  "distribution": "appbao_0.1.53_and_official_direct_0.1.64"
 }
