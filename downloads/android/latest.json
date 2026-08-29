@@ -10,11 +10,13 @@
   "publishedAt": "2026-08-29T13:38:50+08:00",
   "androidHead": "e560c55",
   "fileName": "yuantu-casepro-android-0.1.64-65.apk",
-  "downloadUrl": "https://csysum-boop.github.io/casepro-support/android.html",
-  "apkUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.64-65.apk",
-  "mirrorUrls": [],
-  "qrUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.64-65",
-  "qrTargetUrl": "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.64-65.apk",
+  "downloadUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/android.html",
+  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.64-65.apk",
+  "mirrorUrls": [
+    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.64-65.apk"
+  ],
+  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.64-65",
+  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.64-65.apk",
   "sha256": "c3500bced28bcf98c8d307346300dd36ed3c3364e6a0032c9d446bc7b136d8ce",
   "sizeBytes": 20114508,
   "signerSha256": "7ba168d650cb468b708af118172dfab45bf3fba75927a72a687595a1b5711c42",
