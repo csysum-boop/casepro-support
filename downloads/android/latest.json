@@ -2,23 +2,23 @@
   "appName": "源图casepro",
   "platform": "Android",
   "packageName": "com.csysum.casepro.android",
-  "versionName": "0.1.69",
-  "versionCode": 70,
+  "versionName": "0.1.70",
+  "versionCode": 71,
   "downloadAvailable": true,
-  "status": "available_reposts_and_external_new_cards",
-  "message": "新增外部分享时直接新建个案或合集，完整填写资料后统一添加；完善转发文章全文、附言、视频号封面及官方验证后的继续读取；修复横屏选择界面和长备注长图分段。请直接覆盖安装，勿卸载旧版；重要资料建议先备份。",
-  "publishedAt": "2026-10-09T15:44:55+08:00",
-  "androidHead": "d4bf2bc",
-  "fileName": "yuantu-casepro-android-0.1.69-70.apk",
-  "downloadUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/android.html?v=0.1.69-70",
-  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.69-70.apk",
+  "status": "available_audio_attachments_and_large_archive_recovery",
+  "message": "新增音频资料：可从本机文件或其他应用分享添加，单项最高 2 GB；支持播放、暂停、拖动进度、前后跳转、倍速及原文件系统分享。音频原件包含在完整卡包和完整备份中，修复 Android 大容量 ZIP64 卡包读取。请直接覆盖安装，勿卸载旧版；重要资料建议先备份。",
+  "publishedAt": "2026-10-14T12:16:03+08:00",
+  "androidHead": "6210076",
+  "fileName": "yuantu-casepro-android-0.1.70-71.apk",
+  "downloadUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/android.html?v=0.1.70-71",
+  "apkUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.70-71.apk",
   "mirrorUrls": [
-    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.69-70.apk"
+    "https://csysum-boop.github.io/casepro-support/downloads/android/yuantu-casepro-android-0.1.70-71.apk"
   ],
-  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.69-70",
-  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.69-70.apk",
-  "sha256": "cbb8043766be6997c07e09d3c494089a6266dddccb348ba4a3dddae46022ae11",
-  "sizeBytes": 27090070,
+  "qrUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-download-qr.png?v=0.1.70-71",
+  "qrTargetUrl": "https://yuantu-casepro-downloads-d0255e8-1454163521.tcloudbaseapp.com/downloads/android/yuantu-casepro-android-0.1.70-71.apk",
+  "sha256": "7df2bff697dad10cdd2bd8c4c3a24b16097f3c850819c68ac77529d4c16be7a5",
+  "sizeBytes": 47029174,
   "signerSha256": "7ba168d650cb468b708af118172dfab45bf3fba75927a72a687595a1b5711c42",
-  "distribution": "official_direct_0.1.69_store_update_separate"
+  "distribution": "official_direct_0.1.70_store_update_separate"
 }
